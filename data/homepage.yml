@@ -3,11 +3,9 @@ banner:
   title: Hi! I’m <br> Gerardo (Jerry) <br> Torres Almeida
 about:
   enable: true
-  content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-    fugiat nulla pariatur.
+  content: An electronic engineer by career, and self-taught web developer I successfully
+    use my transferrable skills to help you build a bridge between your brand and
+    your audience.
   button:
     enable: true
     label: know more
