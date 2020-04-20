@@ -23,7 +23,7 @@ skill:
   - title: JAM Stack
     progress: 80%
     color: "#bdecf6"
-  - title: Web App
+  - title: Progressive Web Apps
     progress: 70%
     color: "#ffbcaa"
 experience:
