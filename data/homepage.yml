@@ -62,16 +62,16 @@ service:
   enable: true
   title: Services
   item:
-  - title: Web Presence
-    icon: ti-palette
-    content: Jump-start your online presence with one of our many templates. Avoid
-      cost-prohibitive fees when you're starting your online business.
-    highlighted: true
   - title: Front End / Design
     icon: ti-vector
     content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua.
     highlighted: false
+  - title: Web Presence
+    icon: ti-palette
+    content: Jump-start your online presence with one of our many templates. Avoid
+      cost-prohibitive fees when you're starting your online business.
+    highlighted: true
   - title: Interaction Design
     icon: ti-panel
     content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
