@@ -43,7 +43,7 @@ experience:
     company: THEMEFISHER
     duration: Sep 2014 - Present
 education:
-  enable: true
+  enable: false
   title: Education
   item:
   - title: Marters in UX Design
@@ -62,11 +62,11 @@ service:
   enable: true
   title: Services
   item:
-  - title: UI Design
+  - title: Web Presence
     icon: ti-palette
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
-    highlighted: false
+    content: Jump-start your online presence with one of our many templates. Avoid
+      cost-prohibitive fees when you're starting your online business.
+    highlighted: true
   - title: UX Design
     icon: ti-vector
     content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
