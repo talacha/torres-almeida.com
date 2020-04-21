@@ -5,10 +5,15 @@ admin_path: "/static/admin"
 webhook_url: 
 sections:
 - type: directory
-  path: content/portfolio
-  label: Portfolio
-  create: none
-  match: "*"
+  path: content/spanish
+  label: Contenido en Español
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/english
+  label: English Content
+  create: all
+  match: "**/*"
 - type: directory
   path: content/blog
   label: Post
@@ -17,8 +22,18 @@ sections:
   templates:
   - post
 - type: directory
+  path: content/portfolio
+  label: Portfolio
+  create: none
+  match: "*"
+- type: directory
   path: content/about
   label: About
+  create: none
+  match: "*"
+- type: directory
+  path: content/contact
+  label: Contact
   create: none
   match: "*"
 - type: directory
@@ -27,11 +42,6 @@ sections:
   create: documents
   match: "*"
   new_doc_ext: yml
-- type: directory
-  path: content/contact
-  label: Contact
-  create: none
-  match: "*"
 - type: document
   path: config.toml
   label: Configuration
