@@ -15,28 +15,6 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: content/english/blog
-  label: Post
-  create: documents
-  match: "*"
-  templates:
-  - post
-- type: directory
-  path: content/english/portfolio
-  label: Portfolio
-  create: none
-  match: "*"
-- type: directory
-  path: content/english/about
-  label: About
-  create: none
-  match: "*"
-- type: directory
-  path: content/english/contact
-  label: Contact
-  create: none
-  match: "*"
-- type: directory
   path: data
   label: Data
   create: documents
