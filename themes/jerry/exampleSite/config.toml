@@ -1,30 +1,9 @@
 # default configuration
-baseURL = "https://torres-almeida.com/"
-defaultContentLanguageInSubdir = true
+baseURL = "http://examplesite.com"
 languageCode = "en-us"
 summaryLength = "10"
-theme = "jerry"
-title = "Gerardo Torres Almeida"
-
-[languages]
-  [languages.en]
-    contentDir = "content/english"
-    languageName = "English"
-    languageCode = "en-us"
-    title = "I am Jerry Torres Almeida"
-    weight = 1
-    [languages.en.params]
-      copyright = "Copyright &copy; 2020 a theme by [gethugothemes](https://gethugothemes.com)"
-  [languages.es]
-    contentDir = "content/spanish"
-    languageName = "Español"
-    languageCode = "es-mx"
-    title = "Soy Gerardo Torres Almeida"
-    weight = 2
-    [languages.es.params]
-      home = "Inicio"
-      copyright = "Copyright &copy; 2020 un tema de [gethugothemes](https://gethugothemes.com)"
-
+theme = "kross-hugo"
+title = "Kross | Hugo Portfolio Template"
 
 # css plugins
 [[params.plugins.css]]
@@ -76,7 +55,7 @@ weight = 5
 # default parameters
 [params]
 home = "Home"
-logo = "images/logo.svg"
+logo = "images/logo.png"
 # theme color
 theme_color = "#41228e"
 # contact info
@@ -89,7 +68,7 @@ description = "This is meta description"
 # google analitycs
 google_analitycs_id = "Your ID"
 # copyright
-copyright = "Copyright &copy; 2020 a theme by [gethugothemes](https://gethugothemes.com)"
+copyright = "Copyrighht &copy; 2020 a theme by [gethugothemes](https://gethugothemes.com)"
 
 
 # contact
