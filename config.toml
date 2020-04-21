@@ -1,9 +1,26 @@
 # default configuration
-baseURL = "/"
+baseURL = "https://torres-almeida.com/"
 languageCode = "en-us"
 summaryLength = "10"
 theme = "kross-hugo"
 title = "Gerardo Torres Almeida"
+
+[languages]
+  [languages.en]
+    contentDir = "content/english"
+    languageName = "English"
+    title = "I am Jerry Torres Almeida"
+    weight = 1
+    [languages.en.params]
+      copyright = "Copyright &copy; 2020 a theme by [gethugothemes](https://gethugothemes.com)"
+  [languages.es]
+    contentDir = "content/spanish"
+    languageName = "Español"
+    title = "Soy Gerardo Torres Almeida"
+    weight = 2
+    [languages.es.params]
+      home = "Inicio"
+      copyright = "Copyright &copy; 2020 un tema de [gethugothemes](https://gethugothemes.com)"
 
 # css plugins
 [[params.plugins.css]]
