@@ -3,10 +3,11 @@ baseURL = "https://torres-almeida.com/"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 
-languageCode = "en-us"
+languageCode = "en-US"
 summaryLength = "10"
 theme = "jerry"
 title = "Gerardo Torres Almeida"
+contact = true
 
 # css plugins
 [[params.plugins.css]]
@@ -43,7 +44,7 @@ email = "jerry (at) torres-almeida.com"
 address = "México"
 # meta description
 author = "Gerardo Torres"
-description = "This is meta description"
+description = "Gerardo Torres Back End Developer"
 # google analitycs
 google_analitycs_id = "Your ID"
 # copyright
@@ -52,7 +53,7 @@ copyright = "Copyright &copy; 2020 a theme by [gethugothemes](https://gethugothe
 # contact
 [params.contact]
 enable = true
-form_action = "#" # contact form works with : https://formspree.io
+form_action = "/contact/thank-you" # contact form works with : https://formspree.io
 
 # preloader
 [params.preloader]
@@ -80,11 +81,14 @@ icon = "ti-twitter-alt"
   [languages.en]
     contentDir = "content/english"
     languageName = "English"
-    languageCode = "en-us"
+    languageCode = "en-US"
     title = "I am Jerry Torres Almeida"
     weight = 1
     [languages.en.params]
       copyright = "Copyright &copy; 2020 a theme by [gethugothemes](https://gethugothemes.com)"
+      [languages.en.params.contact]
+      enable = true
+      form_action = "/contact/thank-you"
     [[languages.en.menu.main]]
       URL = "/en/resume"
       name = "Resume"
@@ -113,12 +117,15 @@ icon = "ti-twitter-alt"
   [languages.es]
     contentDir = "content/spanish"
     languageName = "Español"
-    languageCode = "es-mx"
+    languageCode = "es-MX"
     title = "Soy Gerardo Torres Almeida"
     weight = 2
     [languages.es.params]
       home = "Inicio"
       copyright = "Copyright &copy; 2020 un tema de [gethugothemes](https://gethugothemes.com)"
+      [languages.es.params.contact]
+      enable = true
+      form_action = "/contacto/gracias"
     [[languages.es.menu.main]]
       URL = "/es/cv"
       name = "Curriculum"
