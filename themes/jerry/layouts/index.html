@@ -1,11 +1,11 @@
 {{ define "main" }}
-
+{{ $data := index .Site.Data .Site.Language.Lang }}
   <!-- hero area -->
   <section class="hero-area bg-primary overflow-hidden" id="parallax">
     <div class="container">
       <div class="row">
         <div class="col-lg-11 mx-auto">
-          <h1 class="text-white font-tertiary">{{ .Site.Data.homepage.banner.title | safeHTML }}</h1>
+          <h1 class="text-white font-tertiary">{{ $data.homepage.banner.title | safeHTML }}</h1>
         </div>
       </div>
     </div>
@@ -46,13 +46,13 @@
   </section>
   <!-- /hero area -->
 
-  {{ if .Site.Data.homepage.about.enable }}
+  {{ if $data.homepage.about.enable }}
   <!-- about -->
   <section class="section">
     <div class="container">
       <div class="row">
         <div class="col-lg-10 mx-auto text-center">
-          {{ with .Site.Data.homepage.about }}
+          {{ with $data.homepage.about }}
           <p class="font-secondary lead text-dark">{{.content | markdownify}}</p>
           {{ if .button.enable }}
           {{ with .button }}
@@ -68,8 +68,8 @@
   {{ end }}
 
 
-  {{ if .Site.Data.homepage.skill.enable }}
-  {{ with .Site.Data.homepage.skill }}
+  {{ if $data.homepage.skill.enable }}
+  {{ with $data.homepage.skill }}
   <!-- skills -->
   <section class="section">
     <div class="container">
@@ -96,8 +96,8 @@
   {{ end }}
   {{ end }}
 
-  {{ if .Site.Data.homepage.experience.enable }}
-  {{ with .Site.Data.homepage.experience }}
+  {{ if $data.homepage.experience.enable }}
+  {{ with $data.homepage.experience }}
   <!-- experience -->
   <section class="section">
     <div class="container">
@@ -120,8 +120,8 @@
   {{ end }}
   {{ end }}
 
-  {{ if .Site.Data.homepage.education.enable }}
-  {{ with .Site.Data.homepage.education }}
+  {{ if $data.homepage.education.enable }}
+  {{ with $data.homepage.education }}
   <!-- education -->
   <section class="section position-relative">
     <div class="container">
@@ -153,8 +153,8 @@
   {{ end }}
 
 
-  {{ if .Site.Data.homepage.service.enable }}
-  {{ with .Site.Data.homepage.service }}
+  {{ if $data.homepage.service.enable }}
+  {{ with $data.homepage.service }}
   <!-- services -->
   <section class="section">
     <div class="container">
@@ -181,18 +181,18 @@
   {{ end }}
 
 
-  {{ if .Site.Data.homepage.portfolio.enable }}
+  {{ if $data.homepage.portfolio.enable }}
   <!-- portfolio -->
   <section class="section">
     <div class="container">
       <div class="row">
         <div class="col-12 text-center">
-          <h2 class="section-title">{{ .Site.Data.homepage.portfolio.title | markdownify }}</h2>
+          <h2 class="section-title">{{ $data.homepage.portfolio.title | markdownify }}</h2>
         </div>
       </div>
       <div class="row shuffle-wrapper">
-        {{ $item:= .Site.Data.homepage.portfolio.item_show }}
-        {{ range first $item .Site.Data.portfolio.item }}
+        {{ $item:= $data.homepage.portfolio.item_show }}
+        {{ range first $item $data.portfolio.item }}
         <div class="col-lg-4 col-6 mb-4 shuffle-item">
           <div class="position-relative rounded hover-wrapper">
             <img src="{{.image | absURL }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
@@ -213,8 +213,8 @@
   {{ end }}
 
 
-  {{ if .Site.Data.homepage.testimonial.enable }}
-  {{ with .Site.Data.homepage.testimonial }}
+  {{ if $data.homepage.testimonial.enable }}
+  {{ with $data.homepage.testimonial }}
   <!-- testimonial -->
   <section class="section bg-primary position-relative testimonial-bg-shapes">
     <div class="container">
@@ -249,7 +249,7 @@
   {{ end }}
 
 
-  {{ if .Site.Data.homepage.clients_logo_slider.enable }}
+  {{ if $data.homepage.clients_logo_slider.enable }}
   <!-- client logo slider -->
   <section class="section pb-0">
     <div class="container">
@@ -259,13 +259,13 @@
   <!-- /client logo slider -->
   {{ end }}
 
-  {{ if .Site.Data.homepage.blog.enable }}
+  {{ if $data.homepage.blog.enable }}
   <!-- blog -->
   <section class="section">
     <div class="container">
       <div class="row">
         <div class="col-12 text-center">
-          <h2 class="section-title">{{.Site.Data.homepage.blog.title | markdownify }}</h2>
+          <h2 class="section-title">{{$data.homepage.blog.title | markdownify }}</h2>
         </div>
         {{ range first 3 .Site.RegularPages }}
         {{ .Render "post" }}

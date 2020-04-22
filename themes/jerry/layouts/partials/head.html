@@ -13,7 +13,7 @@
     :root{
       --primary-color:{{ .Site.Params.theme_color }};
     }
-    </style>
+  </style>
 
   {{ "<!-- plugins -->" | safeHTML }}
   {{ range .Site.Params.plugins.css }}
@@ -28,4 +28,8 @@
   <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
   <link rel="icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
 
+  {{ "<!--Translations-->" | safeHTML }}
+  {{ if .IsTranslated }}{{ range .Translations }}
+  <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" title="{{ .Language.LanguageName }}">
+  {{ end }}{{ end }}
 </head>

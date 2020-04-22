@@ -1,0 +1,137 @@
+---
+banner:
+  title: ¡Hola! Soy <br> Gerardo (Jerry) <br> Torres Almeida.
+about:
+  enable: true
+  content: Ingeniero electrónico de carrera y desarrollador web autodidacta.
+    Utilizo con éxito mis habilidades transferibles para ayudar a construir un puente entre su marca y su audiencia.
+  button:
+    enable: true
+    label: leer más
+    URL: about
+skill:
+  enable: true
+  title: Habilidades
+  item:
+  - title: Programación Back End
+    progress: 100%
+    color: "#fdb157"
+  - title: Front End + Diseño
+    progress: 60%
+    color: "#9473e6"
+  - title: JAM Stack
+    progress: 80%
+    color: "#bdecf6"
+  - title: Progressive Web Apps
+    progress: 70%
+    color: "#ffbcaa"
+experience:
+  enable: false
+  title: Experiencia
+  item:
+  - logo: images/experience/icon-1.png
+    title: Junior UX Designer
+    company: WEBEX
+    duration: Jan 2007 - Feb 2009
+  - logo: images/experience/icon-2.png
+    title: UX & UI Designer
+    company: AUGMEDIX
+    duration: Mar 2009 - Aug 2014
+  - logo: images/experience/icon-1.png
+    title: Senior UI Designer
+    company: THEMEFISHER
+    duration: Sep 2014 - Present
+education:
+  enable: false
+  title: Educación
+  item:
+  - title: Marters in UX Design
+    year: "2006"
+    academy: Masassusets Institute of Technology
+  - title: Honours in Fine Arts
+    year: "2004"
+    academy: Harvard University
+  - title: Higher Secondary Certificat
+    year: "2000"
+    academy: Cardiff School
+  - title: Secondary School Certificate
+    year: "1998"
+    academy: Cardiff School
+service:
+  enable: true
+  title: Servicios
+  item:
+  - title: Front End / Diseño
+    icon: ti-vector
+    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua.
+    highlighted: false
+  - title: Presencia Web
+    icon: ti-palette
+    content: Jump-start your online presence with one of our many templates. Avoid
+      cost-prohibitive fees when you're starting your online business.
+    highlighted: true
+  - title: Consultorías
+    icon: ti-panel
+    content: Are your web needs more complex than what our carefully crafted, yet
+      cookie-cutter templates can achieve? Then let's talk about how we can take your
+      business to new heights.
+    highlighted: false
+portfolio:
+  enable: false
+  title: Portafolio
+  item_show: "5"
+testimonial:
+  enable: false
+  title: Testimonios
+  item:
+  - name: Jesica Gomez
+    image: images/testimonial/client-1.png
+    designation: CEO, Funder
+    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit
+      esse cillum dolore eu fugiat nulla pariatur.
+  - name: Shirley Scot
+    image: images/testimonial/client-1.png
+    designation: CEO, Funder
+    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit
+      esse cillum dolore eu fugiat nulla pariatur.
+  - name: Jessica Julie
+    image: images/testimonial/client-1.png
+    designation: CEO, Funder
+    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit
+      esse cillum dolore eu fugiat nulla pariatur.
+clients_logo_slider:
+  enable: false
+  item:
+  - logo: images/clients-logo/client-logo-1.png
+    URL: http://examplesite.com
+  - logo: images/clients-logo/client-logo-2.png
+    URL: "#"
+  - logo: images/clients-logo/client-logo-3.png
+    URL: http://examplesite.com
+  - logo: images/clients-logo/client-logo-4.png
+    URL: "#"
+  - logo: images/clients-logo/client-logo-5.png
+    URL: http://examplesite.com
+  - logo: images/clients-logo/client-logo-1.png
+    URL: "#"
+  - logo: images/clients-logo/client-logo-2.png
+    URL: http://examplesite.com
+  - logo: images/clients-logo/client-logo-3.png
+    URL: "#"
+  - logo: images/clients-logo/client-logo-4.png
+    URL: http://examplesite.com
+  - logo: images/clients-logo/client-logo-5.png
+    URL: "#"
+blog:
+  enable: true
+  title: Blogs
