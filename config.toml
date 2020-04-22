@@ -53,7 +53,7 @@ copyright = "Copyright &copy; 2020 a theme by [gethugothemes](https://gethugothe
 # contact
 [params.contact]
 enable = true
-form_action = "/contact/thank-you" # contact form works with : https://formspree.io
+form_action = "/en/thanks" # contact form works with : https://formspree.io
 
 # preloader
 [params.preloader]
@@ -88,7 +88,7 @@ icon = "ti-twitter-alt"
       copyright = "Copyright &copy; 2020 a theme by [gethugothemes](https://gethugothemes.com)"
       [languages.en.params.contact]
       enable = true
-      form_action = "/contact/thank-you"
+      form_action = "/en/thanks"
     [[languages.en.menu.main]]
       URL = "/en/resume"
       name = "Resume"
@@ -125,7 +125,7 @@ icon = "ti-twitter-alt"
       copyright = "Copyright &copy; 2020 un tema de [gethugothemes](https://gethugothemes.com)"
       [languages.es.params.contact]
       enable = true
-      form_action = "/contacto/gracias"
+      form_action = "/es/gracias"
     [[languages.es.menu.main]]
       URL = "/es/cv"
       name = "Curriculum"
