@@ -1,4 +1,5 @@
 {{ define "main" }}
+{{ $data := index .Site.Data .Site.Language.Lang }}
 
 <!-- page title -->
 <section class="page-title-alt bg-primary position-relative overflow-hidden">
@@ -40,8 +41,8 @@
 <!-- /about -->
 
 <!-- Work Process -->
-{{ if .Site.Data.about.work_process.enable }}
-{{ with .Site.Data.about.work_process }}
+{{ if $data.about.work_process.enable }}
+{{ with $data.about.work_process }}
 <section class="section">
   <div class="container">
     <div class="row justify-content-around">
@@ -63,8 +64,8 @@
 <!-- ./Work Process -->
 
 <!-- team -->
-{{ if .Site.Data.about.team.enable }}
-{{ with .Site.Data.about.team }}
+{{ if $data.about.team.enable }}
+{{ with $data.about.team }}
 <section class="section bg-cover" data-background="{{`images/backgrounds/team-bg.png`|relURL}}">
   <div class="container">
     <div class="row">
@@ -89,12 +90,12 @@
 {{ end }}
 <!-- /team -->
 
-{{ if .Site.Data.about.clients_logo_slider.enable }}
+{{ if $data.about.clients_logo_slider.enable }}
 <section class="section">
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h2 class="section-title">{{ .Site.Data.about.clients_logo_slider.title | markdownify }}</h2>
+        <h2 class="section-title">{{ $data.about.clients_logo_slider.title | markdownify }}</h2>
       </div>
     </div>
     {{ partial "client-slider.html" . }}

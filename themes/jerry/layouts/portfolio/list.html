@@ -1,5 +1,5 @@
 {{ define "main" }}
-
+{{ $data := index .Site.Data .Site.Language.Lang }}
 {{ partial "page-title.html" . }}
 
 <!-- portfolio -->
@@ -12,7 +12,7 @@
             <input type="radio" name="shuffle-filter" value="all" checked="checked" />All
           </label>
           {{ $categories := slice }}
-          {{ range .Site.Data.portfolio.item }}
+          {{ range $data.portfolio.item }}
           {{ $categories = $categories | append .category }}
           {{ end }}
           {{ range ( $categories | uniq ) }}
@@ -24,7 +24,7 @@
       </div>
     </div>
     <div class="row shuffle-wrapper">
-      {{ range .Site.Data.portfolio.item }}
+      {{ range $data.portfolio.item }}
       <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;{{.category | urlize}}&quot;]">
         <div class="position-relative rounded hover-wrapper">
           <img src="{{.image | absURL }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
@@ -43,12 +43,12 @@
 </section>
 <!-- /portfolio -->
 
-{{ if .Site.Data.portfolio.clients_logo_slider.enable }}
+{{ if $data.portfolio.clients_logo_slider.enable }}
 <section class="section bg-light">
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h2 class="section-title">{{ .Site.Data.portfolio.clients_logo_slider.title | markdownify }}</h2>
+        <h2 class="section-title">{{ $data.portfolio.clients_logo_slider.title | markdownify }}</h2>
       </div>
     </div>
     {{ partial "client-slider.html" . }}
