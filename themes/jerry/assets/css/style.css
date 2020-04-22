@@ -185,6 +185,12 @@ img {
   border: 0
 }
 
+img.logo {
+  width: 50vw;
+  max-width: 300px;
+  height: auto;
+}
+
 a,
 a:hover,
 a:focus {
