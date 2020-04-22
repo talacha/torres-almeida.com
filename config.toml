@@ -39,8 +39,8 @@ logo = "images/logo.svg"
 theme_color = "#41228e"
 # contact info
 phone = "+880 2544 658 256"
-email = "steve.fruits@email.com"
-address = "125/A, CA Commercial Area, California, USA"
+email = "jerry (at) torres-almeida.com"
+address = "México"
 # meta description
 author = "Gerardo Torres"
 description = "This is meta description"
@@ -105,7 +105,7 @@ icon = "ti-twitter-alt"
       name = "Let's Talk"
       weight = 5
 
-    [[languages.en.menu.language_switch]]
+    [[languages.en.menu.main]]
       URL = "/es"
       name = "¿Español?"
       weight = 6
@@ -139,7 +139,7 @@ icon = "ti-twitter-alt"
       name = "Hablemos"
       weight = 5
 
-    [[languages.en.menu.language_switch]]
+    [[languages.es.menu.main]]
       URL = "/en"
       name = "English?"
       weight = 6
