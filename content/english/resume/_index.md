@@ -5,7 +5,10 @@ description: I am Jerry
 author_image: images/about/author.jpg
 author_signature: images/about/signature.png
 translationKey: resume
----
-I am Gerardo (Jerry) Torres Almeida. Excepteur sint occaecat cupidatat non proident.
 
-Deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.
+---
+I am Gerardo (Jerry) Torres Almeida nice to meet you, I'm an ambitious Product Manager with 10+ years of hands-on experience in the IT and Retail niches. Consistenly rewarded for success in planning and operational improvements. First-rate expert at customer communication, data entry and organization. Diligent and meticulous teamwork advocate, commended for quickly growing market share and profits for the teams and products managed.
+
+Strongly passionate for technology, I have been in constant self-paced learning of new technologies like web, app and blockchain, noticing great similarities and applicability of my transferable skills.
+
+As a Digital Product Manager I offer more than 10+ years of expertise in fast-paced departments where I accrued a handful of transferable skills. Bilingual and well-spoken with ability to work closely and manage people of all different backgrounds and personalities. Currently pursuing the Acquia's Drupal Grand Master and Adobe's ACE: Adobe Certified Expert certifications.
