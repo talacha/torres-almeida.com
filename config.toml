@@ -1,149 +1,112 @@
-# default configuration
 baseURL = "https://torres-almeida.com/"
+contact = true
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
-
 languageCode = "en-US"
 summaryLength = "10"
 theme = "jerry"
 title = "Gerardo Torres Almeida"
-contact = true
-
-# css plugins
-[[params.plugins.css]]
-URL = "plugins/bootstrap/bootstrap.min.css"
-
-[[params.plugins.css]]
-URL = "plugins/slick/slick.css"
-
-[[params.plugins.css]]
-URL = "plugins/themify-icons/themify-icons.css"
-
-# js plugin
-[[params.plugins.js]]
-URL = "plugins/jQuery/jquery.min.js"
-
-[[params.plugins.js]]
-URL = "plugins/bootstrap/bootstrap.min.js"
-
-[[params.plugins.js]]
-URL = "plugins/slick/slick.min.js"
-
-[[params.plugins.js]]
-URL = "plugins/shuffle/shuffle.min.js"
-
-# default parameters
+[languages.en]
+contentDir = "content/english"
+languageCode = "en-US"
+languageName = "English"
+title = "I am Jerry Torres Almeida"
+weight = 1
+[[languages.en.menu.main]]
+URL = "/en/resume"
+name = "Resume"
+weight = 2
+[[languages.en.menu.main]]
+URL = "/en/blog"
+name = "Blog"
+weight = 3
+[[languages.en.menu.main]]
+URL = "/en/samples"
+name = "Samples"
+weight = 4
+[[languages.en.menu.main]]
+URL = "/en/contact"
+name = "Let's Talk"
+weight = 5
+[[languages.en.menu.main]]
+URL = "/es"
+name = "¿Español?"
+weight = 6
+[languages.en.params]
+copyright = "Copyright &copy; 2020 a theme by [gethugothemes](https://gethugothemes.com)"
+[languages.en.params.contact]
+enable = true
+form_action = "/en/thanks"
+[languages.es]
+contentDir = "content/spanish"
+languageCode = "es-MX"
+languageName = "Español"
+title = "Soy Gerardo Torres Almeida"
+weight = 2
+[[languages.es.menu.main]]
+URL = "/es/cv"
+name = "Curriculum"
+weight = 2
+[[languages.es.menu.main]]
+URL = "/es/blog"
+name = "Blog"
+weight = 3
+[[languages.es.menu.main]]
+URL = "/es/ejemplos"
+name = "Ejemplos"
+weight = 4
+[[languages.es.menu.main]]
+URL = "/es/contacto"
+name = "Hablemos"
+weight = 5
+[[languages.es.menu.main]]
+URL = "/en"
+name = "English?"
+weight = 6
+[languages.es.params]
+copyright = "Copyright &copy; 2020 un tema de [gethugothemes](https://gethugothemes.com)"
+email = "gerardo (arroba) torres-almeida.com"
+home = "Inicio"
+[languages.es.params.contact]
+enable = true
+form_action = "/es/gracias"
 [params]
+address = "México"
+author = "Gerardo Torres"
+copyright = "Copyright &copy; 2020 a theme by [gethugothemes](https://gethugothemes.com)"
+description = "Gerardo Torres Back End Developer"
+email = "jerry (at) torres-almeida.com"
+google_analitycs_id = "UA-164348490-1"
 home = "Home"
 logo = "images/logo.svg"
-# theme color
-theme_color = "#41228e"
-# contact info
 phone = "+52 1 55 1116 8107"
-email = "jerry (at) torres-almeida.com"
-address = "México"
-# meta description
-author = "Gerardo Torres"
-description = "Gerardo Torres Back End Developer"
-# google analitycs
-google_analitycs_id = "UA-164348490-1"
-# copyright
-copyright = "Copyright &copy; 2020 a theme by [gethugothemes](https://gethugothemes.com)"
-
-# contact
+theme_color = "#41228e"
 [params.contact]
 enable = true
-form_action = "/en/thanks" # contact form works with : https://formspree.io
-
-# preloader
+form_action = "/en/thanks"
+[[params.plugins.css]]
+URL = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+URL = "plugins/slick/slick.css"
+[[params.plugins.css]]
+URL = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.js]]
+URL = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+URL = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+URL = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+URL = "plugins/shuffle/shuffle.min.js"
 [params.preloader]
 enable = false
-preloader = "" # use png, jpg, svg or gif format
-
-# social site
+preloader = ""
+[[params.social]]
+URL = "https://www.linkedin.com/in/gerardo-torres-0a25b21"
+icon = "ti-linkedin"
 [[params.social]]
 URL = "https://www.facebook.com/gerardo.t.almeida"
 icon = "ti-facebook"
-
 [[params.social]]
 URL = "https://github.com/torresalmeida"
 icon = "ti-github"
-
-[[params.social]]
-URL = "https://twitter.com/almeida_gerardo"
-icon = "ti-twitter-alt"
-
-[languages]
-  [languages.en]
-    contentDir = "content/english"
-    languageName = "English"
-    languageCode = "en-US"
-    title = "I am Jerry Torres Almeida"
-    weight = 1
-    [languages.en.params]
-      copyright = "Copyright &copy; 2020 a theme by [gethugothemes](https://gethugothemes.com)"
-      [languages.en.params.contact]
-      enable = true
-      form_action = "/en/thanks"
-    [[languages.en.menu.main]]
-      URL = "/en/resume"
-      name = "Resume"
-      weight = 2
-
-    [[languages.en.menu.main]]
-      URL = "/en/blog"
-      name = "Blog"
-      weight = 3
-
-    [[languages.en.menu.main]]
-      URL = "/en/samples"
-      name = "Samples"
-      weight = 4
-
-    [[languages.en.menu.main]]
-      URL = "/en/contact"
-      name = "Let's Talk"
-      weight = 5
-
-    [[languages.en.menu.main]]
-      URL = "/es"
-      name = "¿Español?"
-      weight = 6
-
-  [languages.es]
-    contentDir = "content/spanish"
-    languageName = "Español"
-    languageCode = "es-MX"
-    title = "Soy Gerardo Torres Almeida"
-    weight = 2
-    [languages.es.params]
-      home = "Inicio"
-      copyright = "Copyright &copy; 2020 un tema de [gethugothemes](https://gethugothemes.com)"
-      email = "gerardo (arroba) torres-almeida.com"
-      [languages.es.params.contact]
-      enable = true
-      form_action = "/es/gracias"
-    [[languages.es.menu.main]]
-      URL = "/es/cv"
-      name = "Curriculum"
-      weight = 2
-
-    [[languages.es.menu.main]]
-      URL = "/es/blog"
-      name = "Blog"
-      weight = 3
-
-    [[languages.es.menu.main]]
-      URL = "/es/ejemplos"
-      name = "Ejemplos"
-      weight = 4
-
-    [[languages.es.menu.main]]
-      URL = "/es/contacto"
-      name = "Hablemos"
-      weight = 5
-
-    [[languages.es.menu.main]]
-      URL = "/en"
-      name = "English?"
-      weight = 6
