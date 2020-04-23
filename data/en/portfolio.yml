@@ -1,44 +1,51 @@
 # portfolio item
 item:
-  - image : "images/portfolio/item-1.png"
-    project_url : "http://examplesite.com"
-    category: "design"
+  - image : "images/portfolio/hugo-universal-theme.jpg"
+    project_url : "https://themes.gohugo.io/theme/hugo-universal-theme/"
+    category: "hugo"
       
-  - image : "images/portfolio/item-2.png"
-    project_url : "#"
-    category: "branding"
-      
-  - image : "images/portfolio/item-3.png"
-    project_url : "http://examplesite.com"
-    category: "illustration"
-      
-  - image : "images/portfolio/item-5.png"
-    project_url : "#"
-    category: "design"
-      
-  - image : "images/portfolio/item-8.png"
-    project_url : "http://examplesite.com"
-    category: "illustration"
-      
-  - image : "images/portfolio/item-6.png"
-    project_url : "#"
-    category: "design"
-      
-  - image : "images/portfolio/item-1.png"
-    project_url : "http://examplesite.com"
-    category: "branding"
-      
-  - image : "images/portfolio/item-3.png"
-    project_url : "#"
-    category: "illustration"
-      
-  - image : "images/portfolio/item-7.png"
-    project_url : "http://examplesite.com"
-    category: "branding"
+  - image : "images/portfolio/bi.gif"
+    project_url : "https://beyondidentity.com/"
+    category: "drupal"
 
+  - image : "images/portfolio/netlify-templates-gatsby-starter-netlify-cms.jpg"
+    project_url : "https://gatsby-netlify-cms.netlify.com/"
+    category: "gatsby"
+
+  - image : "images/portfolio/bootstrap-business.jpg"
+    project_url : "#"
+    category: "drupal"
+
+  - image: "images/portfolio/snipcart-stackbit-theme-planty.jpg"
+    project_url: "https://stackbit-theme-planty.netlify.com/"
+    category: "hugo"
+
+  - image: "images/portfolio/jugglerx-hugo-hero-theme.jpg"
+    project_url: "https://hugo-hero.netlify.com/"
+    category: "hugo"
+
+  - image: "images/portfolio/emasuriano-gatsby-starter-mate.jpg"
+    project_url: "https://gatsby-starter-mate.netlify.com/"
+    category: "gatsby"
+
+  - image: "images/portfolio/business_responsive.png"
+    project_url: "#"
+    category: "drupal"
+
+  - image: "images/portfolio/stevelane-hugo-icon.jpg"
+    project_url: "https://themes.gohugo.io/theme/hugo-icon/"
+    category: "hugo"
+
+  - image: "images/portfolio/codebushi-gatsby-starter-dimension.jpg"
+    project_url: "https://gatsby-dimension.surge.sh/"
+    category: "gatsby"
+
+  - image: "images/portfolio/radix.jpg"
+    project_url: "#"
+    category: "drupal"
 
 # client logo slider
 clients_logo_slider:
-  enable : true
+  enable : false
   title : "My Clients"
   # clients logo comes from 'data/homepage.yml' file
