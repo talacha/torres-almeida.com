@@ -7,7 +7,7 @@ author_signature: images/about/signature.png
 translationKey: resume
 
 ---
-I am Gerardo (Jerry) Torres Almeida nice to meet you, I'm an ambitious Product Manager with 10+ years of hands-on experience in the IT and Retail niches. Consistenly rewarded for success in planning and operational improvements. First-rate expert at customer communication, data entry and organization. Diligent and meticulous teamwork advocate, commended for quickly growing market share and profits for the teams and products managed.
+Gerardo Torres Almeida is an ambitious Product Manager with 10+ years of hands-on experience in the IT and Retail niches. Consistently rewarded for success in planning and operational improvements. First-rate expert at customer communication, data entry and organization. Diligent and meticulous teamwork advocate, commended for quickly growing market share and profits for the teams and products managed.
 
 Strongly passionate for technology, I have been in constant self-paced learning of new technologies like web, app and blockchain, noticing great similarities and applicability of my transferable skills.
 
