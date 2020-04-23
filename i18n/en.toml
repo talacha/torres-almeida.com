@@ -2,3 +2,19 @@
 other = "Hello"
 [how_are_you]
 other = "How are you doing?"
+[phone]
+other = "Phone"
+[email]
+other = "E-Mail"
+[address]
+other = "Address"
+[read_more]
+other = "Read More"
+[all]
+other = "All"
+[let_s_talk]
+other = "Let's Talk"
+[contact_form]
+other = "Contact Form"
+[view_project]
+other = "view project"

@@ -5,11 +5,11 @@
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h2 class="section-title">Contact Info</h2>
+        <h2 class="section-title">{{ T "let_s_talk"}}</h2>
       </div>
       <div class="col-lg-8 mx-auto">
         <div class="bg-white rounded text-center p-5 shadow-down">
-          <h4 class="mb-80">Contact Form</h4>
+          <h4 class="mb-80">{{ T "contact_form"}}</h4>
           <form action="{{.Site.Params.contact.form_action}}" data-netlify="true" method="POST" class="row">
             <div class="col-md-6">
               <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-0 mb-4">
@@ -39,15 +39,15 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <h5 class="text-light">Email</h5>
+          <h5 class="text-light">{{ T "email"}}</h5>
           <p class="text-white paragraph-lg font-secondary">{{.Site.Params.email}}</p>
         </div>
         <div class="col-md-4">
-          <h5 class="text-light">Phone</h5>
+          <h5 class="text-light">{{ T "phone"}}</h5>
           <p class="text-white paragraph-lg font-secondary">{{.Site.Params.phone}}</p>
         </div>
         <div class="col-md-4">
-          <h5 class="text-light">Address</h5>
+          <h5 class="text-light">{{ T "address"}}</h5>
           <p class="text-white paragraph-lg font-secondary">{{.Site.Params.address}}</p>
         </div>
       </div>

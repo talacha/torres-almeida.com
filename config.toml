@@ -39,7 +39,7 @@ logo = "images/logo.svg"
 # theme color
 theme_color = "#41228e"
 # contact info
-phone = "+880 2544 658 256"
+phone = "+52 1 55 1116 8107"
 email = "jerry (at) torres-almeida.com"
 address = "México"
 # meta description
@@ -62,19 +62,15 @@ preloader = "" # use png, jpg, svg or gif format
 
 # social site
 [[params.social]]
-URL = "#"
+URL = "https://www.facebook.com/gerardo.t.almeida"
 icon = "ti-facebook"
 
 [[params.social]]
-URL = "#"
-icon = "ti-instagram"
+URL = "https://github.com/torresalmeida"
+icon = "ti-github"
 
 [[params.social]]
-URL = "#"
-icon = "ti-dribbble"
-
-[[params.social]]
-URL = "#"
+URL = "https://twitter.com/almeida_gerardo"
 icon = "ti-twitter-alt"
 
 [languages]
@@ -100,8 +96,8 @@ icon = "ti-twitter-alt"
       weight = 3
 
     [[languages.en.menu.main]]
-      URL = "/en/portfolio"
-      name = "Portfolio"
+      URL = "/en/samples"
+      name = "Samples"
       weight = 4
 
     [[languages.en.menu.main]]
@@ -123,6 +119,7 @@ icon = "ti-twitter-alt"
     [languages.es.params]
       home = "Inicio"
       copyright = "Copyright &copy; 2020 un tema de [gethugothemes](https://gethugothemes.com)"
+      email = "gerardo (arroba) torres-almeida.com"
       [languages.es.params.contact]
       enable = true
       form_action = "/es/gracias"
@@ -137,8 +134,8 @@ icon = "ti-twitter-alt"
       weight = 3
 
     [[languages.es.menu.main]]
-      URL = "/es/portafolio"
-      name = "Portafolio"
+      URL = "/es/ejemplos"
+      name = "Ejemplos"
       weight = 4
 
     [[languages.es.menu.main]]
