@@ -1,20 +1,33 @@
 ---
 work_process:
   enable: true
-  title: Work Process
+  title: Areas of Expertise
   item:
-  - title: Research and Plan
+  - title: Product Development
     icon: images/icons/plan.png
     content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua.
-  - title: Design and Develop
+  - title: Purchasing
     icon: images/icons/design.png
     content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua.
-  - title: Deliver
+  - title: Price Strategy
     icon: images/icons/print.png
     content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua.
+  - title: Demand Planning 
+    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua.
+  - title: P&L
+    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua.
+  - title: Sales
+    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua.
+  - title: Customer Service
+    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua.
+      
 team:
   enable: false
   title: Talacha.dev
