@@ -3,11 +3,12 @@ banner:
   title: Hi! I’m <br> Gerardo (Jerry) <br> Torres Almeida.
 about:
   enable: true
-  content: An electronic engineer by career, and self-taught web developer. I can successfully
-    use my transferrable skills to help you build a bridge between your brand/product and
-    your audience, bringing a great customer expierence where we can have a win-win situtation.
+  content: An electronic engineer by career, and self-taught web developer. I can
+    successfully use my transferrable skills to help you build a bridge between your
+    brand/product and your audience, bringing a great customer expierence where we
+    can have a win-win situtation.
   button:
-    enable: true
+    enable: false
     label: know more
     URL: about
 skill:
