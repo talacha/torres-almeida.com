@@ -61,7 +61,7 @@
 
 {{ "<!-- JS Plugins -->" | safeHTML }}
 {{ range .Site.Params.plugins.js}}
-<script defer async src="{{ .URL | absURL }}"></script>
+<script src="{{ .URL | absURL }}"></script>
 {{ end }}
 {{ "<!-- Main Script -->" | safeHTML }}
 {{ $script := resources.Get "js/script.js" | minify}}
