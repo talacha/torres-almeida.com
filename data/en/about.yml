@@ -17,8 +17,8 @@ work_process:
     content: Finding the correct price point to have a well balance for the profit
       and rotation, to avoid over stock.
   - title: Demand Planning
-    content: Forecast accuracy is a must, you need to plan the purchase and calculate
-      the ideal WOI of the supply chain.
+    content: Forecast accuracy is a must, planning the purchase and take advantage
+      of all the times in the supply chain to achieve "Just in time".
     icon: images/icons/demand_planning.svg
   - title: P&L
     content: Finding the appropriate cost and the exact price to guarantee the profitability
