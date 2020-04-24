@@ -1,7 +1,7 @@
 ---
 work_process:
   enable: true
-  title: Areas of expertise
+  title: Areas de experiencia
   item:
   - title: Desarrollo Web
     icon: "/images/icons/design.png"
