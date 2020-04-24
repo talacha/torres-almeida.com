@@ -1,5 +1,5 @@
 ---
-title: "¡Hola! Soy Gerardo XTorres Almeida."
+title: "¡Hola! Soy Gerardo <br> Torres Almeida."
 date: 2019-05-12T01:14:34-05:00
 description: "¡Hola! Soy Gerardo Torres Almeida."
 author_image: images/about/GTA.jpg
