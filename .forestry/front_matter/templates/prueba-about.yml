@@ -32,6 +32,8 @@ fields:
   - name: enable
     type: boolean
     label: enable
+    showOnly:
+      field: enable
   - name: title
     type: text
     config:
