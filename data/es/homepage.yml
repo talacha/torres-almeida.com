@@ -8,7 +8,7 @@ about:
     puente entre su marca / producto y su audiencia, brindando una excelente experiencia
     del cliente donde podemos tener una situación de ganar-ganar.
   button:
-    enable: true
+    enable: false
     label: leer más
     URL: about
 skill:
