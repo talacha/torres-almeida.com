@@ -3,10 +3,10 @@ work_process:
   enable: true
   title: Areas of expertise
   item:
-  - title: Web Development
+  - title: Desarrollo Web
     icon: "/images/icons/design.png"
-    content: Making your home page more attractive, and more functional to build the
-      perfect bridge between your brand/product and your audience.
+    content: Hacemos que su página de internet sea más atractiva y más funcional para
+      construir el puente perfecto entre su marca/producto y su audiencia.
   - title: Product Development
     icon: "/images/icons/product_design.png"
     content: |-
