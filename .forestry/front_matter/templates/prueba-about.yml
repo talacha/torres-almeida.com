@@ -4,7 +4,7 @@ hide_body: false
 fields:
 - type: field_group
   name: work_process
-  label: work_process
+  label: Work Process
   fields:
   - type: boolean
     name: enable
