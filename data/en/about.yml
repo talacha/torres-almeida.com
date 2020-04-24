@@ -43,5 +43,5 @@ clients_logo_slider:
   enable: true
   title: Work History
   item:
-  - logo: images/progress-wave.png
+  - logo: images/icons/sales.png
     URL: ''
