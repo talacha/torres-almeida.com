@@ -5,8 +5,9 @@ work_process:
   item:
   - title: Product Development
     icon: images/icons/product_design.svg
-    content: Find the correct product for the correct audience, find the correct vendor,
-      stablish a good product life cycle and establish a good profitability.
+    content: |-
+      Finding the correct product for the correct audience, looking for the correct vendor.
+      Establishing a profitable product life cycle.
   - title: Purchasing
     icon: images/icons/purchasing.svg
     content: Explore the market, analyze market and choose the best vendor to establish
