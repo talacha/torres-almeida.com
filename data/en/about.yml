@@ -4,9 +4,9 @@ work_process:
   title: Areas of Expertise
   item:
   - title: Product Development
-    icon: images/icons/plan.png
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
+    icon: images/icons/product_design.svg
+    content: Find the correct product for the correct audience, find the correct vendor,
+      stablish a good product life cycle and establish a good profitability.
   - title: Purchasing
     icon: images/icons/design.png
     content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -15,7 +15,7 @@ work_process:
     icon: images/icons/print.png
     content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua.
-  - title: Demand Planning 
+  - title: Demand Planning
     content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua.
   - title: P&L
@@ -27,7 +27,6 @@ work_process:
   - title: Customer Service
     content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua.
-      
 team:
   enable: false
   title: Talacha.dev
