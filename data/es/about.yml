@@ -1,28 +1,54 @@
 ---
 work_process:
   enable: true
-  title: Habilidades
+  title: Areas of expertise
   item:
-  - title: Research and Plan
-    icon: images/icons/plan.png
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
-  - title: Design and Develop
-    icon: images/icons/design.png
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
-  - title: Deliver
-    icon: images/icons/print.png
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
-team:
-  enable: false
-  title: Talacha.dev
-  team_member: []
-clients_logo_slider:
-  enable: true
-  title: My Clients
+  - title: Web Development
+    icon: "/images/icons/design.png"
+    content: Making your home page more attractive, and more functional to build the
+      perfect bridge between your brand/product and your audience.
+  - title: Product Development
+    icon: "/images/icons/product_design.png"
+    content: |-
+      Finding the correct product for the correct audience, looking for the correct vendor.
+      Establishing a profitable product life cycle.
+  - title: Purchasing
+    icon: "/images/icons/purchasing.png"
+    content: Exploring all the quotations, and understanding all the variables in
+      the market, to choose the best vendor and establish a long term relationship.
+  - title: Price Strategy
+    icon: "/images/icons/pricing.png"
+    content: Finding the correct price point to have a well balance for the profit
+      and rotation, to avoid over stock.
+  - title: Demand Planning
+    icon: "/images/icons/demand_planning.png"
+    content: Forecast accuracy is a must, planning the purchase and take advantage
+      of all the times in the supply chain to achieve "Just in time".
+  - title: P&L
+    icon: "/images/icons/pnl-01.png"
+    content: Finding the appropriate cost and the exact price to guarantee the profitability
+      of each product during their life cycle.
+  - title: Sales
+    icon: "/images/icons/sales.png"
+    content: Telling the story of each product so it can sell their unique characteristics.
+  - title: Customer Service
+    icon: "/images/icons/customer_service.png"
+    content: Understanding the customer necessities and solving customers complaints
+      while prioritizing customer satisfaction and loyalty.
 work_history:
-  enable: false
-  title: ''
-  item: []
+  enable: true
+  title: Work History
+  item:
+  - title: Senior Product Planning Manager (2015-12 to 2020-03)
+    company: Diamond Electronics, Mexico, CDMX
+    content: |-
+      • P&L, purchasing budget and sales forecast.
+      • Demand Planning
+      • Planning and purchasing of main components for TV's
+      • Portafolio definition and responsible of product life cycle.
+      • Responsable for correct WOI in supply chain
+      Accomplishments
+      • 33% growth of YoY in Retail business
+      • 4% to 7% growth of market share in Telecom Business' 2nd year.
+      • Resolved conflicts and negotiated mutually beneficial agreements between parties.
+      • Resolved over stock problems, improved operations and provided exceptional client support.
