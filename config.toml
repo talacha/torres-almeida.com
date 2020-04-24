@@ -65,7 +65,7 @@ name = "English?"
 weight = 6
 [languages.es.params]
 copyright = "Copyright &copy; 2020 un tema de [gethugothemes](https://gethugothemes.com)"
-email = "gerardo (arroba) torres-almeida.com"
+email = "gerardo@torres-almeida.com"
 home = "Inicio"
 [languages.es.params.contact]
 enable = true
