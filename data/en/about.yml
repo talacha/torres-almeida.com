@@ -28,6 +28,13 @@ work_process:
     icon: "/images/icons/pnl-01.png"
     content: Finding the appropriate cost and the exact price to guarantee the profitability
       of each product during their life cycle.
+  - title: Sales
+    icon: "/images/icons/sales.png"
+    content: Telling the story of each product so it can sell their unique characteristics.
+  - title: Customer Service
+    icon: "/images/icons/customer_service.png"
+    content: Understanding the customer necessities and solving customers complaints
+      while prioritizing customer satisfaction and loyalty.
 work_history:
   enable: true
   title: Work History
