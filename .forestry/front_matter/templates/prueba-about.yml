@@ -45,6 +45,11 @@ fields:
       config:
         required: false
       label: title
+    - name: company
+      type: text
+      config:
+        required: false
+      label: company
     - name: content
       type: textarea
       default: ''
