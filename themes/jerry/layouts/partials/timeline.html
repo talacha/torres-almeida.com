@@ -7,7 +7,7 @@
             <ul class="timeline">
             {{ range .jobs }}
                 <li>
-                    <span class="timeline-item-date float-right">{{ .date.year }} - {{ .date.month }}</span>
+                    <span class="timeline-item-date float-right">{{ dateFormat "Jan, 2006" .date }}</span>
                     <div class="timeline-item-title h4">{{ .title }}</div>
                     <div class="timeline-item-subtitle">{{ .company }}</div>
                     <div class="timeline-item-content text-dark">{{ .content | markdownify }}</div>

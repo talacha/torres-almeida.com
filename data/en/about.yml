@@ -40,9 +40,7 @@ work_history:
   title: Work History
   jobs:
   - title: Senior Product Planning Manager (2015-12 to 2020-03)
-    date:
-      year: 2015
-      month: December
+    date: 2015-12-01T00:00:00-00:00
     company: Diamond Electronics, Mexico, CDMX
     content: |-
       - P&L, purchasing budget and sales forecast.
@@ -56,9 +54,7 @@ work_history:
       - Resolved conflicts and negotiated mutually beneficial agreements between parties.
       - Resolved over stock problems, improved operations and provided exceptional client support.
   - title: Senior Product Planning Manager (2015-12 to 2020-03)
-    date:
-      year: 2015
-      month: May
+    date: 2015-05-01T00:00:00-00:00
     company: Diamond Electronics, Mexico, CDMX
     content: |-
       - P&L, purchasing budget and sales forecast.
@@ -72,9 +68,7 @@ work_history:
       - Resolved conflicts and negotiated mutually beneficial agreements between parties.
       - Resolved over stock problems, improved operations and provided exceptional client support.
   - title: Senior Product Planning Manager (2015-12 to 2020-03)
-    date:
-      year: 2010
-      month: June
+    date: 2010-01-01T00:00:00-00:00
     company: Diamond Electronics, Mexico, CDMX
     content: |-
       - P&L, purchasing budget and sales forecast.
