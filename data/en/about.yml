@@ -12,9 +12,9 @@ work_process:
     content: Explore the market, analyze market and choose the best vendor to establish
       a long term relationship.
   - title: Price Strategy
-    icon: images/icons/print.png
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
+    icon: images/icons/pricing.svg
+    content: Find the correct price for the equilbrium of the profit and rotation,
+      to avoid over stock.
   - title: Demand Planning
     content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua.
