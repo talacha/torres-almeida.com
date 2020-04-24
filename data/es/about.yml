@@ -1,7 +1,7 @@
 ---
 work_process:
   enable: true
-  title: Work Process
+  title: Habilidades
   item:
   - title: Research and Plan
     icon: images/icons/plan.png
@@ -22,3 +22,7 @@ team:
 clients_logo_slider:
   enable: true
   title: My Clients
+work_history:
+  enable: false
+  title: ''
+  item: []
