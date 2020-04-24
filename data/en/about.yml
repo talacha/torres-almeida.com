@@ -40,8 +40,8 @@ team:
   title: Talacha.dev
   team_member: []
 clients_logo_slider:
-  enable: true
-  title: Work History
+  enable: false
+  title: My Clients
   item:
   - logo: images/icons/sales.png
     URL: ''
