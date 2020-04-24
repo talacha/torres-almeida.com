@@ -3,10 +3,6 @@ work_process:
   enable: true
   title: Areas of expertise
   item:
-  - title: Demand Planning
-    icon: "/images/icons/demand_planning.png"
-    content: Forecast accuracy is a must, planning the purchase and take advantage
-      of all the times in the supply chain to achieve "Just in time".
   - title: Web Development
     icon: "/images/icons/design.png"
     content: Making your home page more attractive, and more functional to build the
@@ -24,6 +20,14 @@ work_process:
     icon: "/images/icons/pricing.png"
     content: Finding the correct price point to have a well balance for the profit
       and rotation, to avoid over stock.
+  - title: Demand Planning
+    icon: "/images/icons/demand_planning.png"
+    content: Forecast accuracy is a must, planning the purchase and take advantage
+      of all the times in the supply chain to achieve "Just in time".
+  - title: P&L
+    icon: "/images/icons/pnl-01.png"
+    content: Finding the appropriate cost and the exact price to guarantee the profitability
+      of each product during their life cycle.
 work_history:
   enable: true
   title: Work History
