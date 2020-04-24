@@ -8,9 +8,9 @@ work_process:
     content: Find the correct product for the correct audience, find the correct vendor,
       stablish a good product life cycle and establish a good profitability.
   - title: Purchasing
-    icon: images/icons/design.png
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
+    icon: images/icons/purchasing.svg
+    content: Explore the market, analyze market and choose the best vendor to establish
+      a long term relationship.
   - title: Price Strategy
     icon: images/icons/print.png
     content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
