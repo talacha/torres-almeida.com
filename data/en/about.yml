@@ -41,7 +41,7 @@ team:
   team_member: []
 clients_logo_slider:
   enable: true
-  title: client list
+  title: Work History
   item:
-  - logo: ''
-    URL: ''
+  - logo: Product
+    URL: content/english/pro_exp/product-planning-manager.md
