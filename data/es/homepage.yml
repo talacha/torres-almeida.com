@@ -1,10 +1,12 @@
 ---
 banner:
-  title: ¡Hola! Soy <br> Gerardo (Jerry) <br> Torres Almeida.
+  title: "¡Hola! Soy <br> Gerardo <br> Torres Almeida."
 about:
   enable: true
-  content: Ingeniero electrónico de carrera y desarrollador web autodidacta.
-    Utilizo con éxito mis habilidades transferibles para ayudar a construir un puente entre su marca y su audiencia.
+  content: Ingeniero electrónico de carrera y desarrollador web autodidacta. Puedo
+    utilizar con éxito mis habilidades transferibles para ayudarlo a construir un
+    puente entre su marca / producto y su audiencia, brindando una excelente experiencia
+    del cliente donde podemos tener una situación de ganar-ganar.
   button:
     enable: true
     label: leer más
