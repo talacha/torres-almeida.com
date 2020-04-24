@@ -27,8 +27,9 @@ work_process:
     content: Telling the story of each product so it can sell their unique characteristics.
     icon: images/icons/sales.svg
   - title: Customer Service
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
+    content: Understanding the customer necessities and solving customers complaints
+      while prioritizing customer satisfaction and loyalty.
+    icon: images/icons/customer_service.svg
 team:
   enable: false
   title: Talacha.dev
