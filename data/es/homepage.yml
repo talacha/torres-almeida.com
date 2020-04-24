@@ -65,8 +65,8 @@ service:
   item:
   - title: Front End / Diseño
     icon: ti-vector
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
+    content: Diseñaremos su página web de acuerdo a sus necesidades y haremos que
+      sus clientes tengan la mejor experiencia.
     highlighted: false
   - title: Presencia Web
     icon: ti-palette
