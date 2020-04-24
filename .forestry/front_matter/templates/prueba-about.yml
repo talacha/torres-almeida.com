@@ -1,5 +1,5 @@
 ---
-label: Prueba about
+label: About
 hide_body: true
 fields:
 - type: field_group
@@ -32,8 +32,7 @@ fields:
   - name: enable
     type: boolean
     label: enable
-    showOnly:
-      field: enable
+    default: false
   - name: title
     type: text
     config:
