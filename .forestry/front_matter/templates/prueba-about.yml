@@ -31,40 +31,49 @@ fields:
   fields:
   - name: enable
     type: boolean
-    label: enable
+    label: Show Work History?
     default: false
   - name: title
     type: text
     config:
       required: false
-    label: title
-  - name: item
+    label: Title
+  - name: jobs
     type: field_group_list
     fields:
     - name: title
       type: text
       config:
         required: false
-      label: title
+      label: Title
+    - name: date
+      type: datetime
+      description: ''
+      config:
+        required: false
+        date_format: 
+        time_format: 
+        display_utc: false
+      label: Date
     - name: company
       type: text
       config:
         required: false
-      label: company
+      label: Company
     - name: content
       type: textarea
       default: ''
       config:
         required: false
-        wysiwyg: false
+        wysiwyg: true
         schema:
           format: markdown
-      label: content
+      label: Description
     config:
       min: 
       max: 
       labelField: 
-    label: item
+    label: Jobs
   label: Work History
 pages:
 - data/en/about.yml
