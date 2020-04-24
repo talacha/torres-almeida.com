@@ -7,11 +7,11 @@ work_process:
     icon: "/images/icons/design.png"
     content: Hacemos que su página de internet sea más atractiva y más funcional para
       construir el puente perfecto entre su marca/producto y su audiencia.
-  - title: Product Development
+  - title: Desarollo de Producto
     icon: "/images/icons/product_design.png"
     content: |-
-      Finding the correct product for the correct audience, looking for the correct vendor.
-      Establishing a profitable product life cycle.
+      Encontrar el producto correcto para la audiencia correcta, buscando el proveedor correcto.
+      Estableciendo un ciclo de vida correcto para el producto.
   - title: Purchasing
     icon: "/images/icons/purchasing.png"
     content: Exploring all the quotations, and understanding all the variables in
