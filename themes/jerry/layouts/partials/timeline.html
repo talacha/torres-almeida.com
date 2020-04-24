@@ -1,0 +1,19 @@
+<section class="section">
+    <div class="container">
+        <div class="row justify-content-around">
+            <div class="col-12 text-center">
+                <h2 class="section-title">{{ .title | markdownify }}</h2>
+            </div>
+            <ul class="timeline">
+            {{ range .jobs }}
+                <li>
+                    <span class="timeline-item-date float-right">{{ .date.year }} - {{ .date.month }}</span>
+                    <div class="timeline-item-title h4">{{ .title }}</div>
+                    <div class="timeline-item-subtitle">{{ .company }}</div>
+                    <div class="timeline-item-content text-dark">{{ .content | markdownify }}</div>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+    </div>
+</section>

@@ -11,7 +11,33 @@ VERSION: Versoin Number
   font-style: normal;
   font-display: swap
 }
-
+:root {
+  --primary-color: #41228e;
+  --primary-color-hover: #230b5c;
+  --primary-color-active: #230b5c;
+  --primary-color-visit: #41228e;
+  --color-secondary: #41228e;
+  --color-secondary-hover: #41228e;
+  --color-secondary-visit: #41228e;
+  --accent-color: #230b5c;
+  --accent-color-hover: #41228e;
+  --accent-color-visit: #41228e;
+  --light-color: #8c73c7;
+  --color-gray: #ccc;
+  --color-gray-light: #eee;
+  --color-gray-dark: #999;
+  --color-dark: #230b5c;
+  --color-error: #c00;
+  --color-error-hover: #c00;
+  --color-error-visit: #c00;
+  --color-warning: #ffa500;
+  --color-warning-hover: #ffa500;
+  --color-warning-visit: #ffa500;
+  --color-success: #0c0;
+  --color-success-hover: #0c0;
+  --color-success-visit: #0c0;
+  --color-dark-bg: transparent;
+}
 body {
   line-height: 1.2;
   font-family: roboto, sans-serif;
@@ -44,7 +70,7 @@ h1,
   font-size: 80px
 }
 
-@media(max-width:991px) {
+@media (max-width: 991px) {
 
   h1,
   .h1 {
@@ -57,7 +83,7 @@ h2,
   font-size: 60px
 }
 
-@media(max-width:991px) {
+@media (max-width: 991px) {
 
   h2,
   .h2 {
@@ -433,13 +459,13 @@ textarea.form-control {
   padding: 15px 100px
 }
 
-@media(max-width:991px) {
+@media (max-width: 991px) {
   .navigation.nav-bg {
     padding: 15px 20px
   }
 }
 
-@media(max-width:991px) {
+@media (max-width: 991px) {
   .navigation {
     padding: 20px;
     background: var(--primary-color)
@@ -465,7 +491,7 @@ textarea.form-control {
   position: relative
 }
 
-@media(max-width:767px) {
+@media (max-width: 767px) {
   .hero-area {
     padding: 200px 0 150px;
     overflow: hidden
@@ -728,7 +754,7 @@ textarea.form-control {
   align-items: center
 }
 
-@media(max-width:991px) {
+@media (max-width: 991px) {
   .card-lg {
     flex-direction: column
   }
@@ -768,7 +794,7 @@ blockquote {
   margin-top: -230px
 }
 
-@media(max-width:991px) {
+@media (max-width: 991px) {
   .drag-lg-top {
     margin-top: 0
   }
@@ -876,4 +902,35 @@ blockquote {
 
 .filter-controls li.active {
   font-weight: 700
+}
+
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+}
+ul.timeline:before {
+  content: ' ';
+  background: #d4d9df;
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 400;
+}
+ul.timeline > li {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+ul.timeline > li:before {
+  content: ' ';
+  background: white;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid var(--primary-color);
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  z-index: 400;
 }
