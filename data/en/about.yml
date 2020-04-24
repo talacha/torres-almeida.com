@@ -48,7 +48,7 @@ clients_logo_slider:
   - logo: images/icons/sales.png
     URL: ''
 work_history:
-  enable: true
+  enable: false
   title: Work History
   item:
   - title: Senior Product Planning Manager (2015-12 to 2020-03)
