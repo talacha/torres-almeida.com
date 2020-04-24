@@ -35,7 +35,18 @@ work_process:
     content: Understanding the customer necessities and solving customers complaints
       while prioritizing customer satisfaction and loyalty.
     icon: images/icons/customer_service.png
-
+team:
+  enable: false
+  title: Talacha.dev
+  team_member: []
+clients_logo_slider:
+  enable: false
+  title: My Clients
+  item:
+  - logo: images/icons/sales.png
+    URL: ''
+  - logo: images/icons/sales.png
+    URL: ''
 work_history:
   enable: true
   title: Work History
