@@ -17,10 +17,10 @@ work_process:
     content: Evaluando todas las cotizaciones, y entindiendo las variables del mercado,
       con el fin de escoger al mejor proveedor para establecer una relación a largo
       plazo.
-  - title: Price Strategy
+  - title: Estrategia de precios
     icon: "/images/icons/pricing.png"
-    content: Finding the correct price point to have a well balance for the profit
-      and rotation, to avoid over stock.
+    content: Encontrar el precio correcto para tener el balance perfecto entre rentabilidad
+      y rotación, con el fin de evitar el sobreinventario.
   - title: Demand Planning
     icon: "/images/icons/demand_planning.png"
     content: Forecast accuracy is a must, planning the purchase and take advantage
