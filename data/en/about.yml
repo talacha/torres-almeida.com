@@ -8,33 +8,33 @@ work_process:
     content: Making your home page more attractive, and more functional to build the
       perfect bridge between your brand/product and your audience.
   - title: Product Development
-    icon: images/icons/product_design.svg
+    icon: images/icons/product_design.png
     content: |-
       Finding the correct product for the correct audience, looking for the correct vendor.
       Establishing a profitable product life cycle.
   - title: Purchasing
-    icon: images/icons/purchasing.svg
+    icon: images/icons/purchasing.png
     content: Exploring all the quotations, and understanding all the variables in
       the market, to choose the best vendor and establish a long term relationship.
   - title: Price Strategy
-    icon: images/icons/pricing.svg
+    icon: images/icons/pricing.png
     content: Finding the correct price point to have a well balance for the profit
       and rotation, to avoid over stock.
   - title: Demand Planning
     content: Forecast accuracy is a must, planning the purchase and take advantage
       of all the times in the supply chain to achieve "Just in time".
-    icon: images/icons/demand_planning.svg
+    icon: images/icons/demand_planning.png
   - title: P&L
     content: Finding the appropriate cost and the exact price to guarantee the profitability
       of each product during their life cycle.
-    icon: images/icons/pnl-01.svg
+    icon: images/icons/pnl-01.png
   - title: Sales
     content: Telling the story of each product so it can sell their unique characteristics.
-    icon: images/icons/sales.svg
+    icon: images/icons/sales.png
   - title: Customer Service
     content: Understanding the customer necessities and solving customers complaints
       while prioritizing customer satisfaction and loyalty.
-    icon: images/icons/customer_service.svg = $resource.Resize "57x59"
+    icon: images/icons/customer_service.png = 10x10
 team:
   enable: false
   title: Talacha.dev
