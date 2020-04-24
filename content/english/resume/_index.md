@@ -3,7 +3,7 @@ title: I am Jerry
 date: 2019-05-12T06:14:34.000+00:00
 description: I am Jerry
 author_image: images/about/GTA.jpg
-author_signature: images/about/signature.png
+author_signature: ''
 translationKey: resume
 
 ---
