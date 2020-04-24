@@ -1,7 +1,7 @@
 ---
-title: "¡Hola! Soy Gerardo Torres Almeida."
+title: "¡Hola! Soy Gerardo XTorres Almeida."
 date: 2019-05-12T01:14:34-05:00
-description: "¡Hola! Soy Gerardo \nTorres Almeida."
+description: "¡Hola! Soy Gerardo Torres Almeida."
 author_image: images/about/GTA.jpg
 author_signature: ''
 translationKey: resume
