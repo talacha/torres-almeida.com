@@ -1,8 +1,21 @@
 ---
 work_process:
   enable: true
-  title: ''
-  item: []
+  title: Areas of expertise
+  item:
+  - title: Web Development
+    icon: "/images/icons/design.png"
+    content: Making your home page more attractive, and more functional to build the
+      perfect bridge between your brand/product and your audience.
+  - title: Product Development
+    icon: "/images/icons/product_design.png"
+    content: |-
+      Finding the correct product for the correct audience, looking for the correct vendor.
+      Establishing a profitable product life cycle.
+  - title: Purchasing
+    icon: "/images/icons/purchasing.png"
+    content: Exploring all the quotations, and understanding all the variables in
+      the market, to choose the best vendor and establish a long term relationship.
 work_history:
   enable: false
   title: ''
