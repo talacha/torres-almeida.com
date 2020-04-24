@@ -43,5 +43,5 @@ clients_logo_slider:
   enable: true
   title: Work History
   item:
-  - logo: Product
+  - logo: images/progress-wave.png
     URL: content/english/pro_exp/product-planning-manager.md
