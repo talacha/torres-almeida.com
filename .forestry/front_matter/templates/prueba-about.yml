@@ -66,4 +66,5 @@ fields:
     label: item
   label: Work History
 pages:
+- data/en/about.yml
 - data/en/aboutbkup.yml
