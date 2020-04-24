@@ -23,19 +23,21 @@ work_process:
       y rotación, con el fin de evitar el sobreinventario.
   - title: Demand Planning
     icon: "/images/icons/demand_planning.png"
-    content: Forecast accuracy is a must, planning the purchase and take advantage
-      of all the times in the supply chain to achieve "Just in time".
+    content: Un forecast preciso es imprescindible, planificar la compra y aprovechar
+      todos los tiempos en la cadena de suministro para lograr tener el producto  justo
+      a tiempo (Just in time).
   - title: P&L
     icon: "/images/icons/pnl-01.png"
-    content: Finding the appropriate cost and the exact price to guarantee the profitability
-      of each product during their life cycle.
-  - title: Sales
+    content: Encontrar el costo y precio correcto para garantizar la rentabilidad
+      de cada producto durante su ciclo de vida.
+  - title: Ventas
     icon: "/images/icons/sales.png"
-    content: Telling the story of each product so it can sell their unique characteristics.
-  - title: Customer Service
+    content: Contar la historia de cada producto para poder vender sus características
+      únicas.
+  - title: Servicio al cliente
     icon: "/images/icons/customer_service.png"
-    content: Understanding the customer necessities and solving customers complaints
-      while prioritizing customer satisfaction and loyalty.
+    content: La satisfacción y la lealtad del cliente son escenciales para entender
+      las necesidades y resolver las quejas del cliente.
 work_history:
   enable: true
   title: Work History
