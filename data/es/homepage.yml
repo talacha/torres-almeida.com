@@ -70,14 +70,14 @@ service:
     highlighted: false
   - title: Presencia Web
     icon: ti-palette
-    content: Jump-start your online presence with one of our many templates. Avoid
-      cost-prohibitive fees when you're starting your online business.
+    content: Inicie su presencia en línea con una de nuestras muchas plantillas. Evite
+      tarifas prohibitivas cuando inicie su negocio en línea.
     highlighted: true
   - title: Consultorías
     icon: ti-panel
-    content: Are your web needs more complex than what our carefully crafted, yet
-      cookie-cutter templates can achieve? Then let's talk about how we can take your
-      business to new heights.
+    content: "¿Su web necesita algo más complejo de lo que pueden lograr nuestras
+      plantillas cuidadosamente elaboradas, pero que cortan las cookies? Hablemos
+      sobre cómo podemos llevar su negocio a nuevas alturas."
     highlighted: false
 portfolio:
   enable: false
