@@ -36,12 +36,12 @@ work_process:
       while prioritizing customer satisfaction and loyalty.
     icon: images/icons/customer_service.png
 team:
-  enable: true
-  title: Talacha.dev
-  team_member:
-  - jñlkjfñlaj
-  - Paljfljfjl
-clients_logo_slider:
   enable: false
-  title: Work History
-  item: []
+  title: Talacha.dev
+  team_member: []
+clients_logo_slider:
+  enable: true
+  title: client list
+  item:
+  - logo: ''
+    URL: ''
