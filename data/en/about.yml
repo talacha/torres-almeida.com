@@ -17,6 +17,19 @@ work_process:
     content: Exploring all the quotations, and understanding all the variables in
       the market, to choose the best vendor and establish a long term relationship.
 work_history:
-  enable: false
-  title: ''
-  item: []
+  enable: true
+  title: Work History
+  item:
+  - title: Senior Product Planning Manager (2015-12 to 2020-03)
+    company: Diamond Electronics, Mexico, CDMX
+    content: |-
+      • P&L, purchasing budget and sales forecast.
+      • Demand Planning
+      • Planning and purchasing of main components for TV's
+      • Portafolio definition and responsible of product life cycle.
+      • Responsable for correct WOI in supply chain
+      Accomplishments
+      • 33% growth of YoY in Retail business
+      • 4% to 7% growth of market share in Telecom Business' 2nd year.
+      • Resolved conflicts and negotiated mutually beneficial agreements between parties.
+      • Resolved over stock problems, improved operations and provided exceptional client support.
