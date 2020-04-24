@@ -1,6 +1,6 @@
 ---
-label: Prueba about
-hide_body: true
+label: About
+hide_body: false
 fields:
 - type: field_group
   name: work_process
@@ -32,8 +32,7 @@ fields:
   - name: enable
     type: boolean
     label: enable
-    showOnly:
-      field: enable
+    default: false
   - name: title
     type: text
     config:
@@ -70,3 +69,4 @@ fields:
 pages:
 - data/en/about.yml
 - data/en/aboutbkup.yml
+- data/es/about.yml

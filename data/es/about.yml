@@ -1,24 +1,57 @@
 ---
 work_process:
   enable: true
-  title: Work Process
+  title: Areas de experiencia
   item:
-  - title: Research and Plan
-    icon: images/icons/plan.png
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
-  - title: Design and Develop
-    icon: images/icons/design.png
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
-  - title: Deliver
-    icon: images/icons/print.png
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
-team:
-  enable: false
-  title: Talacha.dev
-  team_member: []
-clients_logo_slider:
+  - title: Desarrollo Web
+    icon: "/images/icons/design.png"
+    content: Hacemos que su página de internet sea más atractiva y más funcional para
+      construir el puente perfecto entre su marca/producto y su audiencia.
+  - title: Desarollo de Producto
+    icon: "/images/icons/product_design.png"
+    content: |-
+      Encontrar el producto correcto para la audiencia correcta, buscando el proveedor correcto.
+      Estableciendo un ciclo de vida correcto para el producto.
+  - title: Compras
+    icon: "/images/icons/purchasing.png"
+    content: Evaluando todas las cotizaciones, y entindiendo las variables del mercado,
+      con el fin de escoger al mejor proveedor para establecer una relación a largo
+      plazo.
+  - title: Estrategia de precios
+    icon: "/images/icons/pricing.png"
+    content: Encontrar el precio correcto para tener el balance perfecto entre rentabilidad
+      y rotación, con el fin de evitar el sobreinventario.
+  - title: Demand Planning
+    icon: "/images/icons/demand_planning.png"
+    content: Un forecast preciso es imprescindible, planificar la compra y aprovechar
+      todos los tiempos en la cadena de suministro para lograr tener el producto  justo
+      a tiempo (Just in time).
+  - title: P&L
+    icon: "/images/icons/pnl-01.png"
+    content: Encontrar el costo y precio correcto para garantizar la rentabilidad
+      de cada producto durante su ciclo de vida.
+  - title: Ventas
+    icon: "/images/icons/sales.png"
+    content: Contar la historia de cada producto para poder vender sus características
+      únicas.
+  - title: Servicio al cliente
+    icon: "/images/icons/customer_service.png"
+    content: La satisfacción y la lealtad del cliente son escenciales para entender
+      las necesidades y resolver las quejas del cliente.
+work_history:
   enable: true
-  title: My Clients
+  title: Work History
+  item:
+  - title: Senior Product Planning Manager (2015-12 to 2020-03)
+    company: Diamond Electronics, Mexico, CDMX
+    content: |-
+      • P&L, purchasing budget and sales forecast.
+      • Demand Planning
+      • Planning and purchasing of main components for TV's
+      • Portafolio definition and responsible of product life cycle.
+      • Responsable for correct WOI in supply chain
+      Accomplishments
+      • 33% growth of YoY in Retail business
+      • 4% to 7% growth of market share in Telecom Business' 2nd year.
+      • Resolved conflicts and negotiated mutually beneficial agreements between parties.
+      • Resolved over stock problems, improved operations and provided exceptional client support.

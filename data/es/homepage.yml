@@ -1,12 +1,14 @@
 ---
 banner:
-  title: ¡Hola! Soy <br> Gerardo (Jerry) <br> Torres Almeida.
+  title: "¡Hola! Soy <br> Gerardo <br> Torres Almeida."
 about:
   enable: true
-  content: Ingeniero electrónico de carrera y desarrollador web autodidacta.
-    Utilizo con éxito mis habilidades transferibles para ayudar a construir un puente entre su marca y su audiencia.
+  content: Ingeniero electrónico de carrera y desarrollador web autodidacta. Puedo
+    utilizar con éxito mis habilidades transferibles para ayudarlo a construir un
+    puente entre su marca / producto y su audiencia, brindando una excelente experiencia
+    del cliente donde podemos tener una situación de ganar-ganar.
   button:
-    enable: true
+    enable: false
     label: leer más
     URL: about
 skill:
@@ -63,19 +65,19 @@ service:
   item:
   - title: Front End / Diseño
     icon: ti-vector
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
+    content: Diseñaremos su página web de acuerdo a sus necesidades y haremos que
+      sus clientes tengan la mejor experiencia.
     highlighted: false
   - title: Presencia Web
     icon: ti-palette
-    content: Jump-start your online presence with one of our many templates. Avoid
-      cost-prohibitive fees when you're starting your online business.
+    content: Inicie su presencia en línea con una de nuestras muchas plantillas. Evite
+      tarifas prohibitivas cuando inicie su negocio en línea.
     highlighted: true
   - title: Consultorías
     icon: ti-panel
-    content: Are your web needs more complex than what our carefully crafted, yet
-      cookie-cutter templates can achieve? Then let's talk about how we can take your
-      business to new heights.
+    content: "¿Su web necesita algo más complejo de lo que pueden lograr nuestras
+      plantillas cuidadosamente elaboradas, pero que cortan las cookies? Hablemos
+      sobre cómo podemos llevar su negocio a nuevas alturas."
     highlighted: false
 portfolio:
   enable: false
