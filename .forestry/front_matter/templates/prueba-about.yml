@@ -25,36 +25,38 @@ fields:
     - type: textarea
       name: content
       label: content
-- type: field_group
-  name: team
-  label: team
+- name: work_history
+  type: field_group
+  config: {}
   fields:
-  - type: boolean
-    name: enable
+  - name: enable
+    type: boolean
     label: enable
-  - type: text
-    name: title
+  - name: title
+    type: text
+    config:
+      required: false
     label: title
-  - type: list
-    name: team_member
-    label: team_member
-- type: field_group
-  name: clients_logo_slider
-  label: clients_logo_slider
-  fields:
-  - type: boolean
-    name: enable
-    label: enable
-  - type: text
-    name: title
-    label: title
-  - type: field_group_list
-    name: item
-    label: item
+  - name: item
+    type: field_group_list
     fields:
-    - type: file
-      name: logo
-      label: logo
-    - type: text
-      name: URL
-      label: URL
+    - name: title
+      type: text
+      config:
+        required: false
+      label: title
+    - name: content
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: content
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: item
+  label: Work History
