@@ -3,6 +3,10 @@ work_process:
   enable: true
   title: Areas of Expertise
   item:
+  - title: Web Development
+    icon: images/icons/design.png
+    content: Making your home page more attractive, and more functionality according
+      to the audience you are looking for.
   - title: Product Development
     icon: images/icons/product_design.svg
     content: |-
