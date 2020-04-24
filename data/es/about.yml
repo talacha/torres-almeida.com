@@ -12,10 +12,11 @@ work_process:
     content: |-
       Encontrar el producto correcto para la audiencia correcta, buscando el proveedor correcto.
       Estableciendo un ciclo de vida correcto para el producto.
-  - title: Purchasing
+  - title: Compras
     icon: "/images/icons/purchasing.png"
-    content: Exploring all the quotations, and understanding all the variables in
-      the market, to choose the best vendor and establish a long term relationship.
+    content: Evaluando todas las cotizaciones, y entindiendo las variables del mercado,
+      con el fin de escoger al mejor proveedor para establecer una relación a largo
+      plazo.
   - title: Price Strategy
     icon: "/images/icons/pricing.png"
     content: Finding the correct price point to have a well balance for the profit
