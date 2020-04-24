@@ -20,11 +20,12 @@ work_process:
       the ideal WOI of the supply chain.
     icon: images/icons/demand_planning.svg
   - title: P&L
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
+    content: Finding the appropriate cost and the exact price to guarantee the profitability
+      of each product during their life cycle.
+    icon: images/icons/pnl-01.svg
   - title: Sales
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
+    content: Telling the story of each product so it can sell their unique characteristics.
+    icon: images/icons/sales.svg
   - title: Customer Service
     content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua.
