@@ -34,7 +34,7 @@ work_process:
   - title: Customer Service
     content: Understanding the customer necessities and solving customers complaints
       while prioritizing customer satisfaction and loyalty.
-    icon: '{{ $images/icons/customer_service.svg := $resource.Resize "57x59" }}'
+    icon: images/icons/customer_service.svg := $resource.Resize "57x59"
 team:
   enable: false
   title: Talacha.dev
