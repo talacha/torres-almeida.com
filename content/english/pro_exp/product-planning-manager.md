@@ -1,7 +1,6 @@
 +++
 date = 2015-12-15T06:00:00Z
 description = ""
-draft = true
 image = ""
 title = "Product Planning Manager"
 
