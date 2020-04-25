@@ -7,8 +7,10 @@
             <ul class="timeline">
             {{ range .jobs }}
                 <li>
-                    <span class="timeline-item-date float-right">{{ dateFormat "Jan, 2006" .date }}</span>
-                    <div class="timeline-item-title h4">{{ .title }}</div>
+                    <div class="timeline-item-title h4 d-flex justify-content-between align-items-center">
+                        {{ .title }}
+                        <span class="timeline-item-date badge badge-primary badge-pill">{{ dateFormat "Jan, 2006" .date }}</span>
+                    </div>
                     <div class="timeline-item-subtitle">{{ .company }}</div>
                     <div class="timeline-item-content text-dark">{{ .content | markdownify }}</div>
                 </li>

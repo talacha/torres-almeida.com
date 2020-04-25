@@ -934,3 +934,31 @@ ul.timeline > li:before {
   height: 20px;
   z-index: 400;
 }
+ul.timeline > li .timeline-item-date {
+  font-size: small;
+  background-color: var(--primary-color);
+  /*padding: 0.5em 1em;*/
+  color: #FFFFFF;
+  align-self: start;
+}
+ul.timeline > li .timeline-item-subtitle {
+  font-size: medium;
+  font-weight: bolder;
+  color: var(--primary-color);
+  padding: 20px 0;
+}
+ul.timeline > li .timeline-item-content ul {
+  padding: 0;
+}
+ul.timeline > li .timeline-item-content ul > li {
+  margin: 20px 0;
+  padding: 0 20px;
+}
+ul.timeline > li .timeline-item-content ul > li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: var(--primary-color); /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
