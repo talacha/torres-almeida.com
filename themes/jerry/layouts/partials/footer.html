@@ -12,7 +12,10 @@
           <h4 class="mb-80">{{ T "contact_form"}}</h4>
           <form action="{{.Site.Params.contact.form_action}}" data-netlify="true" method="POST" class="row">
             <div class="col-md-6">
+              {% if languageCode == "en-US" %}
               <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-0 mb-4">
+              {% else %}
+              <input type="text" id="name" name="name" placeholder="Nombre Completo" class="form-control px-0 mb-4">
             </div>
             <div class="col-md-6">
               <input type="email" id="email" name="email" placeholder="Email Address" class="form-control px-0 mb-4">
