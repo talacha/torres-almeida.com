@@ -18,5 +18,3 @@ other = "Hablemos"
 other = "Escríbame una nota"
 [view_project]
 other = "ver proyecto"
-[placeholder]
-other = "Nombre Completo"
