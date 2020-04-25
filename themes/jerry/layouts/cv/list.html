@@ -62,6 +62,14 @@
 {{ end }}
 <!-- ./Work Process -->
 
+<!-- Work Experience -->
+{{ if $data.about.work_history.enable }}
+{{ with $data.about.work_history }}
+{{ partial "timeline.html" . }}
+{{ end }}
+{{ end }}
+<!-- ./Work Experience -->
+
 <!-- team -->
 {{ if $data.about.team.enable }}
 {{ with $data.about.team }}
