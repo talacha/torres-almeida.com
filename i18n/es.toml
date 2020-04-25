@@ -20,3 +20,7 @@ other = "Escríbame una nota"
 other = "ver proyecto"
 [Full_name]
 other = "Nombre completo"
+[Email_Address]
+other = "Dirección de Email"
+[Type_Message]
+other = "Escriba su mensaje aqui"
