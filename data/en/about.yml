@@ -40,44 +40,58 @@ work_history:
   title: Work History
   jobs:
   - title: Senior Product Planning Manager (2015-12 to 2020-03)
-    date: 2015-12-01T00:00:00-00:00
+    date: 2015-12-01T00:00:00.000+00:00
     company: Diamond Electronics, Mexico, CDMX
     content: |-
-      - P&L, purchasing budget and sales forecast.
-      - Demand Planning
-      - Planning and purchasing of main components for TV's
-      - Portafolio definition and responsible of product life cycle.
-      - Responsable for correct WOI in supply chain
-      Accomplishments
-      - 33% growth of YoY in Retail business
-      - 4% to 7% growth of market share in Telecom Business' 2nd year.
-      - Resolved conflicts and negotiated mutually beneficial agreements between parties.
-      - Resolved over stock problems, improved operations and provided exceptional client support.
-  - title: Senior Product Planning Manager (2015-12 to 2020-03)
-    date: 2015-05-01T00:00:00-00:00
-    company: Diamond Electronics, Mexico, CDMX
+      * **_Responsabilities_**
+      * P&L, purchasing budget and sales forecast.
+      * Demand Planning
+      * Planning and purchasing of main components for TV's
+      * Portafolio definition and responsible of product life cycle.
+      * Responsable for correct WOI in supply chain
+      * **_Accomplishments_**
+      * 33% growth of YoY in Retail business
+      * 4% to 7% growth of market share in Telecom Business' 2nd year.
+      * Resolved conflicts and negotiated mutually beneficial agreements between parties.
+      * Resolved over stock problems, improved operations and provided exceptional client support.
+  - title: Senior Buyer Computer segment (2014-08 to 2015-02)
+    date: 2014-08-01T00:00:00.000+00:00
+    company: Grupo Elektra, Mexico, CDMX
     content: |-
-      - P&L, purchasing budget and sales forecast.
-      - Demand Planning
-      - Planning and purchasing of main components for TV's
-      - Portafolio definition and responsible of product life cycle.
-      - Responsable for correct WOI in supply chain
-      Accomplishments
-      - 33% growth of YoY in Retail business
-      - 4% to 7% growth of market share in Telecom Business' 2nd year.
-      - Resolved conflicts and negotiated mutually beneficial agreements between parties.
-      - Resolved over stock problems, improved operations and provided exceptional client support.
-  - title: Senior Product Planning Manager (2015-12 to 2020-03)
-    date: 2010-01-01T00:00:00-00:00
-    company: Diamond Electronics, Mexico, CDMX
+      * **_Responsabilities_**
+      * Performed extensive vendor and supplier research to identify cost effective options and product availability for Elektra POS.
+      * Oversaw procurement of products and apparel for Elektra, retail chain store, monitoring annual budget.
+      * Communicated with vendors regarding inventory needs and negotiated prices to maintain profits margin.
+      * **_Accomplishments_**
+      * Reduction of low rotation inventory without affecting segment profit.
+  - title: Product Development and Customer service Manager (2014-08 to 2010-08)
+    date: 2010-08-01T00:00:00.000+00:00
+    company: Grupo Elektra, Mexico, CDMX
     content: |-
-      - P&L, purchasing budget and sales forecast.
-      - Demand Planning
-      - Planning and purchasing of main components for TV's
-      - Portafolio definition and responsible of product life cycle.
-      - Responsable for correct WOI in supply chain
-      Accomplishments
-      - 33% growth of YoY in Retail business
-      - 4% to 7% growth of market share in Telecom Business' 2nd year.
-      - Resolved conflicts and negotiated mutually beneficial agreements between parties.
-      - Resolved over stock problems, improved operations and provided exceptional client support.
+      * **_Responsabilities_**
+      * Developed and launched of proprietary brands':' Legacy, EKT, HKPro, Fancy and Kingsley.
+      * Reviewed each store locations buying trends to ascertain correct assortment of appareal for maximum sales and profits.
+      * Product & Package Design.
+      * **_Accomplishments_**
+      * Resolved customer complaints while prioritizin customer satisfaction and loyalty.
+      * Reduced rotation and failure rate for Electronics, Mobile Phones, Accesories and Household Appliances segments. Got it to 3% down from 6%.
+  - title: Jr. Product Manager (2009-08 to 2010-08)
+    date: 2009-08-01T00:00:00.000+00:00
+    company: Iusacell (Now AT&T), Mexico, CDMX
+    content: |-
+      * **_Responsabilities_**
+      * Price negotiation for select stores.
+      * Design and development of promotional and POP resources.
+      * **_Accomplishments_**
+      * Introduced Iusacell brand to major retail outlets Suburbia and Oxxo.
+      * Increased market share for MAVI and LIVERPOOL.
+  - title: jr. Buyer Unefon and Iusacell (2006-02 to 2009-08)
+    date: 2006-02-01T00:00:00.000+00:00
+    company: Grupo Elektra, Mexico, CDMX
+    content: |-
+      * **_Responsabilities_**
+      * Portafolio selection for Elektra stores.
+      * Guarantee profit and inventory levels.
+      * **_Accomplishments_**
+      * Drove 5% increase in gross margin and 20% decrease in obsolete inventory.
+      * Launched new commercial offering for controlled plans obtaining 20% increase in sellout.
