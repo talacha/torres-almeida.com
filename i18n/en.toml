@@ -20,3 +20,7 @@ other = "Contact Form"
 other = "view project"
 [Full_name]
 other = "Full Name"
+[Email_Address]
+other = "Email Adress"
+[Type_Message]
+other = "Type Message Here"
