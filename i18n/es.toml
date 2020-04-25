@@ -24,3 +24,5 @@ other = "Nombre completo"
 other = "Dirección de Email"
 [Type_Message]
 other = "Escriba su mensaje aqui"
+[Send]
+other = "Enviar"

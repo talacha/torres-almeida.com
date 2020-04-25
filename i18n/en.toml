@@ -24,3 +24,5 @@ other = "Full Name"
 other = "Email Adress"
 [Type_Message]
 other = "Type Message Here"
+[Send]
+other = "Send"
