@@ -18,3 +18,5 @@ other = "Hablemos"
 other = "Escríbame una nota"
 [view_project]
 other = "ver proyecto"
+[Full Name]
+other = "Nombre Completo"
