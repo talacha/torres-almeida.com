@@ -39,7 +39,7 @@ work_process:
     content: La satisfacción y la lealtad del cliente son escenciales para entender
       las necesidades y resolver las quejas del cliente.
 work_history:
-  enable: false
+  enable: true
   title: Experiencia Profesional
   jobs:
   - title: Senior Product Planning Manager (2015-12 to 2020-03)
