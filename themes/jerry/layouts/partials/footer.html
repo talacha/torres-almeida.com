@@ -40,15 +40,15 @@
       <div class="row">
         <div class="col-md-4">
           <h5 class="text-light">{{ T "email"}}</h5>
-          <p class="text-white paragraph-lg font-secondary">{{.Site.Params.email}}</p>
+          <p class="text-white paragraph-lg font-secondary"><i class="ti-email"></i>&nbsp;<a class="text-light email" href="/en/contact/">{{.Site.Params.email}}</a></p>
         </div>
         <div class="col-md-4">
           <h5 class="text-light">{{ T "phone"}}</h5>
-          <p class="text-white paragraph-lg font-secondary">{{.Site.Params.phone}}</p>
+          <p class="text-white paragraph-lg font-secondary"><i class="ti-bell"></i>&nbsp;<a class="text-light phone" href="tel:{{.Site.Params.phone}}">{{.Site.Params.phone}}</a></p>
         </div>
         <div class="col-md-4">
           <h5 class="text-light">{{ T "address"}}</h5>
-          <p class="text-white paragraph-lg font-secondary">{{.Site.Params.address}}</p>
+          <p class="text-white paragraph-lg font-secondary"><i class="ti-location-pin">&nbsp;</i><a class="text-light map"  href="{{.Site.Params.map}}">{{.Site.Params.address}}</a></p>
         </div>
       </div>
     </div>

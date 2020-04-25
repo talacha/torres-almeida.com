@@ -6,76 +6,12 @@ languageCode = "en-US"
 summaryLength = "10"
 theme = "jerry"
 title = "Gerardo Torres Almeida"
-[languages.en]
-contentDir = "content/english"
-languageCode = "en-US"
-languageName = "English"
-title = "I am Jerry Torres Almeida"
-weight = 1
-[[languages.en.menu.main]]
-URL = "/en/resume"
-name = "Resume"
-weight = 2
-[[languages.en.menu.main]]
-URL = "/en/blog"
-name = "Blog"
-weight = 3
-[[languages.en.menu.main]]
-URL = "/en/samples"
-name = "Samples"
-weight = 4
-[[languages.en.menu.main]]
-URL = "/en/contact"
-name = "Let's Talk"
-weight = 5
-[[languages.en.menu.main]]
-URL = "/es"
-name = "¿Español?"
-weight = 6
-[languages.en.params]
-copyright = "Copyright &copy; 2020 a theme by [gethugothemes](https://gethugothemes.com)"
-[languages.en.params.contact]
-enable = true
-form_action = "/en/thanks"
-[languages.es]
-contentDir = "content/spanish"
-languageCode = "es-MX"
-languageName = "Español"
-title = "Soy Gerardo Torres Almeida"
-weight = 2
-[[languages.es.menu.main]]
-URL = "/es/cv"
-name = "Curriculum"
-weight = 2
-[[languages.es.menu.main]]
-URL = "/es/blog"
-name = "Blog"
-weight = 3
-[[languages.es.menu.main]]
-URL = "/es/ejemplos"
-name = "Ejemplos"
-weight = 4
-[[languages.es.menu.main]]
-URL = "/es/contacto"
-name = "Hablemos"
-weight = 5
-[[languages.es.menu.main]]
-URL = "/en"
-name = "English?"
-weight = 6
-[languages.es.params]
-copyright = "Copyright &copy; 2020 un tema de [gethugothemes](https://gethugothemes.com)"
-email = "gerardo@torres-almeida.com"
-home = "Inicio"
-[languages.es.params.contact]
-enable = true
-form_action = "/es/gracias"
+
 [params]
-address = "México"
 author = "Gerardo Torres"
 copyright = "Copyright &copy; 2020 a theme by [gethugothemes](https://gethugothemes.com)"
-description = "Gerardo Torres Back End Developer"
-email = "geradro@torres-almeida.com"
+description = "Gerardo Torres Senior Digital Product Manager"
+email = "jerry@torres-almeida.com"
 google_analitycs_id = "UA-164348490-1"
 home = "Home"
 logo = "images/logo.svg"
@@ -110,3 +46,73 @@ icon = "ti-facebook"
 [[params.social]]
 URL = "https://github.com/torresalmeida"
 icon = "ti-github"
+
+[languages.en]
+contentDir = "content/english"
+languageCode = "en-US"
+languageName = "English"
+title = "I am Jerry Torres Almeida"
+weight = 1
+[[languages.en.menu.main]]
+URL = "/en/resume"
+name = "Resume"
+weight = 2
+[[languages.en.menu.main]]
+URL = "/en/blog"
+name = "Blog"
+weight = 3
+[[languages.en.menu.main]]
+URL = "/en/samples"
+name = "Samples"
+weight = 4
+[[languages.en.menu.main]]
+URL = "/en/contact"
+name = "Let's Talk"
+weight = 5
+[[languages.en.menu.main]]
+URL = "/es"
+name = "¿Español?"
+weight = 6
+[languages.en.params]
+address = "Naucalpan, 53296. Mexico."
+map = "https://goo.gl/maps/csRjvKKh7eF2gjAP7"
+copyright = "Made with &hearts; in Mexico. All rights reserved. &copy; 2020"
+[languages.en.params.contact]
+enable = true
+form_action = "/en/thanks"
+
+[languages.es]
+contentDir = "content/spanish"
+languageCode = "es-MX"
+languageName = "Español"
+title = "Soy Gerardo Torres Almeida"
+weight = 2
+[languages.es.params]
+address = "Naucalpan, 53296. México."
+map = "https://goo.gl/maps/csRjvKKh7eF2gjAP7"
+copyright = "Hecho con &hearts; en Mexico. Todos los derechos reservados. &copy; 2020"
+email = "gerardo@torres-almeida.com"
+home = "Inicio"
+[languages.es.params.contact]
+enable = true
+form_action = "/es/gracias"
+[[languages.es.menu.main]]
+URL = "/es/cv"
+name = "Curriculum"
+weight = 2
+[[languages.es.menu.main]]
+URL = "/es/blog"
+name = "Blog"
+weight = 3
+[[languages.es.menu.main]]
+URL = "/es/ejemplos"
+name = "Ejemplos"
+weight = 4
+[[languages.es.menu.main]]
+URL = "/es/contacto"
+name = "Hablemos"
+weight = 5
+[[languages.es.menu.main]]
+URL = "/en"
+name = "English?"
+weight = 6
