@@ -12,16 +12,16 @@ VERSION: Versoin Number
   font-display: swap
 }
 :root {
-  --primary-color: #808080;
+  --primary-color: #41228e;
   --primary-color-hover: #230b5c;
   --primary-color-active: #230b5c;
-  --primary-color-visit: #808080;
-  --color-secondary: #808080;
-  --color-secondary-hover: #808080;
-  --color-secondary-visit: #808080;
+  --primary-color-visit: #41228e;
+  --color-secondary: #41228e;
+  --color-secondary-hover: #41228e;
+  --color-secondary-visit: #41228e;
   --accent-color: #230b5c;
-  --accent-color-hover: #808080;
-  --accent-color-visit: #808080;
+  --accent-color-hover: #41228e;
+  --accent-color-visit: #41228e;
   --light-color: #8c73c7;
   --color-gray: #ccc;
   --color-gray-light: #eee;
