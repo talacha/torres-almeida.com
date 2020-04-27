@@ -5,13 +5,12 @@ work_process:
   item:
   - title: Web Development
     icon: "/images/icons/design.png"
-    content: Making your web page more attractive, and more functional to build the
-      perfect bridge between your brand/product and your audience.
+    content: Create and design the ideal website that meets the expectations and needs
+      of the client.
   - title: Product Development
     icon: "/images/icons/product_design.png"
-    content: |-
-      Finding the correct product for the correct audience, looking for the correct vendor.
-      Establishing a profitable product life cycle.
+    content: Establish long-term relationship with vendors to have the ideal product
+      for the final customer
   - title: Purchasing
     icon: "/images/icons/purchasing.png"
     content: Exploring all the quotations, and understanding all the variables in
@@ -30,7 +29,8 @@ work_process:
       of each product during their life cycle.
   - title: Sales
     icon: "/images/icons/sales.png"
-    content: Telling the story of each product so it can sell their unique characteristics.
+    content: Detailed analysis of each product to transmit the unique characteristics
+      to the sales force.
   - title: Customer Service
     icon: "/images/icons/customer_service.png"
     content: Understanding the customer necessities and solving customers complaints

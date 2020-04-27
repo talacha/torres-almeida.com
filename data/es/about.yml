@@ -5,16 +5,15 @@ work_process:
   item:
   - title: Desarrollo Web
     icon: "/images/icons/design.png"
-    content: Hacemos que su página de internet sea más atractiva y más funcional para
-      construir el puente perfecto entre su marca/producto y su audiencia.
+    content: Crear y diseñar la página web ideal que cubra las expectativas y necesidades
+      del cliente.
   - title: Desarollo de Producto
     icon: "/images/icons/product_design.png"
-    content: |-
-      Encontrar el producto correcto para la audiencia correcta, buscando el proveedor correcto.
-      Estableciendo un ciclo de vida correcto para el producto.
+    content: Establecer relación a largo plazo con los proveedores para tener el producto
+      ideal para el cliente final.
   - title: Compras
     icon: "/images/icons/purchasing.png"
-    content: Evaluando todas las cotizaciones, y entindiendo las variables del mercado,
+    content: Evaluar todas las cotizaciones y entender las variables del mercado,
       con el fin de escoger al mejor proveedor para establecer una relación a largo
       plazo.
   - title: Estrategia de Precios
@@ -32,8 +31,8 @@ work_process:
       de cada producto durante su ciclo de vida.
   - title: Ventas
     icon: "/images/icons/sales.png"
-    content: Contar la historia de cada producto para poder vender sus características
-      únicas.
+    content: Análisis detallado de cada producto para transmitir las características
+      únicas a la fuerza de ventas.
   - title: Servicio al Cliente
     icon: "/images/icons/customer_service.png"
     content: La satisfacción y la lealtad del cliente son escenciales para entender
@@ -59,7 +58,7 @@ work_history:
       * Resolución de conflictos y negociación de beneficios para ambas partes.
       * Resolución de problemas de stock, mejora en las operaciones y brindar un excepcional soporte al cliente.
   - title: Comprador Sr. Computo (2014-08 a 2015-02)
-    date: 2014-07-31T19:00:00-05:00
+    date: 2014-08-01T00:00:00.000+00:00
     company: Grupo Elektra, México, CDMX
     content: |-
       **Responsabilidades**
@@ -69,7 +68,7 @@ work_history:
 
       **Logros**
       * Reducción del inventario de baja rotación sin afectar la rentabilidad de la categoría.
-  - title: Gerente Sr. de Desarrollo y Servicio Marca Propia  (2014-08 a 2010-08)
+  - title: Gerente Sr. de Desarrollo y Servicio Marca Propia  (2010-08 a 2014-08)
     date: 2010-08-01T00:00:00.000+00:00
     company: Grupo Elektra, México, CDMX
     content: |-
