@@ -3,9 +3,9 @@ item:
   - image : "images/portfolio/hugo-universal-theme.jpg"
     project_url : "https://themes.gohugo.io/theme/hugo-universal-theme/"
     category: "hugo"
-      
-  - image : "images/portfolio/bi.gif"
-    project_url : "https://beyondidentity.com/"
+
+  - image : "images/portfolio/aljazeera.png"
+    project_url : "http://www.aljazeera.com/blogs/"
     category: "drupal"
 
   - image : "images/portfolio/netlify-templates-gatsby-starter-netlify-cms.jpg"
@@ -20,6 +20,10 @@ item:
     project_url: "https://stackbit-theme-planty.netlify.com/"
     category: "hugo"
 
+  - image : "images/portfolio/bruno_mars.png"
+    project_url : "http://www.brunomars.com/"
+    category: "drupal"
+
   - image: "images/portfolio/jugglerx-hugo-hero-theme.jpg"
     project_url: "https://hugo-hero.netlify.com/"
     category: "hugo"
@@ -27,6 +31,10 @@ item:
   - image: "images/portfolio/emasuriano-gatsby-starter-mate.jpg"
     project_url: "https://gatsby-starter-mate.netlify.com/"
     category: "gatsby"
+
+  - image : "images/portfolio/cisco.png"
+    project_url : "http://ioeassessment.cisco.com/"
+    category: "drupal"
 
   - image: "images/portfolio/business_responsive.png"
     project_url: "#"
@@ -36,12 +44,20 @@ item:
     project_url: "https://themes.gohugo.io/theme/hugo-icon/"
     category: "hugo"
 
+  - image : "images/portfolio/dallas_cowboys.png"
+    project_url : "http://www.dallascowboys.com/"
+    category: "drupal"
+
   - image: "images/portfolio/codebushi-gatsby-starter-dimension.jpg"
     project_url: "https://gatsby-dimension.surge.sh/"
     category: "gatsby"
 
   - image: "images/portfolio/radix.jpg"
     project_url: "#"
+    category: "drupal"
+
+  - image : "images/portfolio/pfizer.png"
+    project_url : "http://www.pfizer.com/"
     category: "drupal"
 
 # client logo slider
