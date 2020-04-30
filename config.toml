@@ -105,7 +105,7 @@ URL = "plugins/shuffle/shuffle.min.js"
 enable = false
 preloader = ""
 [[params.social]]
-URL = "https://www.linkedin.com/in/gerardo-torres-0a25b21"
+URL = "https://www.linkedin.com/in/gtorresalmeida"
 icon = "ti-linkedin"
 [[params.social]]
 URL = "https://www.facebook.com/gerardo.t.almeida"
